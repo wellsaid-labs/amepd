@@ -8,21 +8,6 @@
 ;;; unrestricted.  If you make use of or redistribute this material, we would
 ;;; appreciate acknowlegement of its origin.
 ;;;
-'BOUT  B AW1 T
-'CAUSE  K AH0 Z
-'COURSE  K AO1 R S
-'CUSE  K Y UW1 Z
-'EM  AH0 M
-'FRISCO  F R IH1 S K OW0
-'GAIN  G EH1 N
-'KAY  K EY1
-'M  AH0 M
-'N  AH0 N
-'ROUND  R AW1 N D
-'S  EH1 S
-'TIL  T IH1 L
-'TIS  T IH1 Z
-'TWAS  T W AH1 Z
 A  AH0
 A(2)  EY1
 A'S  EY1 Z
@@ -27123,6 +27108,7 @@ CUS  K AH1 S
 CUS(2)  S IY1 Y UW1 EH1 S
 CUSACK  K Y UW1 Z AH0 K
 CUSANO  K UW0 S AA1 N OW0
+CUSE  K Y UW1 Z
 CUSH  K AH1 SH
 CUSH(2)  K UH1 SH
 CUSHEY  K UH1 SH IY0
@@ -44376,6 +44362,7 @@ FRISBY  F R IH1 S B IY0
 FRISCH  F R IH1 SH
 FRISCIA  F R IY1 S CH AH0
 FRISCO  F R IY1 S K OW0
+FRISCO(2)  F R IH1 S K OW0
 FRISELLA  F R IH0 S EH1 L AH0
 FRISHMAN  F R IH1 SH M AH0 N
 FRISINA  F R IY0 S IY1 N AH0
