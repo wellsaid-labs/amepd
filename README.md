@@ -7,7 +7,6 @@ Using John Wells' lexical sets, it has the following mergers:
 
  *  TRAP-BATH
  *  PALM-LOT
- *  STRUT-COMMA
  *  THOUGHT-CLOTH
  *  NORTH-FORCE
  *  FLEECE-HAPPY
