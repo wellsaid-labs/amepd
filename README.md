@@ -13,7 +13,7 @@ Using John Wells' lexical sets, it has the following mergers:
 
 ## License
 
-Copyright (C) 1993-2008 Carnegie Mellon University. All rights reserved.
+Copyright (C) 1993-2008 Carnegie Mellon University. All rights reserved.  
 Copyright (C) 2016 Reece H. Dunn (Cainteoir Technologies). All rights reserved.
 
 Use of this dictionary for any research or commercial purpose is completely
