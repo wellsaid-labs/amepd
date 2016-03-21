@@ -6,8 +6,8 @@ English pronunciation dictionary.
 Using John Wells' lexical sets, it has the following mergers:
 
  *  TRAP-BATH
- *  PALM-LOT
- *  THOUGHT-CLOTH
+ *  PALM-LOT (COT)
+ *  THOUGHT-CLOTH (CAUGHT)
  *  NORTH-FORCE
  *  FLEECE-HAPPY
 
