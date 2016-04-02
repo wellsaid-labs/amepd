@@ -1,0 +1,53 @@
+# SKOS description of the AmEPD context tags
+#
+# Copyright (c) 2016 Reece H. Dunn (Cainteoir Technologies). All rights reserved.
+#
+# Use of this dictionary for any research or commercial purpose is completely
+# unrestricted.  If you make use of or redistribute this material, we would
+# appreciate acknowlegement of its origin.
+
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema> .
+
+@prefix amepd: <http://reecedunn.co.uk/linguistics/pos/amepd/> .
+
+amepd: a skos:ConceptScheme ;
+	dct:title "AmEPD Context Tags"@en ;
+	dct:description "This is the context tags used by the AmEPD (American English Pronunciation Dictionary) to identify different pronunciation contexts." ;
+	skos:notation "amepd" ;
+	skos:hasTopConcept amepd:2 ;
+	skos:hasTopConcept amepd:3 ;
+	skos:hasTopConcept amepd:4 ;
+	skos:hasTopConcept amepd:5 ;
+	skos:hasTopConcept amepd:6 .
+
+amepd:2 a skos:Concept ;
+	skos:prefLabel "2"@en ;
+	skos:notation "2" ;
+	skos:note "An alternate pronunciation." ;
+	skos:inScheme amepd: .
+
+amepd:3 a skos:Concept ;
+	skos:prefLabel "3"@en ;
+	skos:notation "3" ;
+	skos:note "An alternate pronunciation." ;
+	skos:inScheme amepd: .
+
+amepd:4 a skos:Concept ;
+	skos:prefLabel "4"@en ;
+	skos:notation "4" ;
+	skos:note "An alternate pronunciation." ;
+	skos:inScheme amepd: .
+
+amepd:5 a skos:Concept ;
+	skos:prefLabel "5"@en ;
+	skos:notation "5" ;
+	skos:note "An alternate pronunciation." ;
+	skos:inScheme amepd: .
+
+amepd:6 a skos:Concept ;
+	skos:prefLabel "6"@en ;
+	skos:notation "6" ;
+	skos:note "An alternate pronunciation." ;
+	skos:inScheme amepd: .
