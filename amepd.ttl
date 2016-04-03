@@ -18,8 +18,7 @@ amepd: a skos:ConceptScheme ;
 	skos:notation "amepd" ;
 	skos:hasTopConcept amepd:2 ;
 	skos:hasTopConcept amepd:3 ;
-	skos:hasTopConcept amepd:4 ;
-	skos:hasTopConcept amepd:5 .
+	skos:hasTopConcept amepd:4 .
 
 amepd:2 a skos:Concept ;
 	skos:prefLabel "2"@en ;
@@ -36,11 +35,5 @@ amepd:3 a skos:Concept ;
 amepd:4 a skos:Concept ;
 	skos:prefLabel "4"@en ;
 	skos:notation "4" ;
-	skos:note "An alternate pronunciation." ;
-	skos:inScheme amepd: .
-
-amepd:5 a skos:Concept ;
-	skos:prefLabel "5"@en ;
-	skos:notation "5" ;
 	skos:note "An alternate pronunciation." ;
 	skos:inScheme amepd: .
