@@ -18,6 +18,7 @@ amepd: a skos:ConceptScheme ;
 	dct:description "This is the context tags used by the AmEPD (American English Pronunciation Dictionary) to identify different pronunciation contexts." ;
 	skos:notation "amepd" ;
 	skos:hasTopConcept amepd:adj ;
+	skos:hasTopConcept amepd:adv ;
 	skos:hasTopConcept amepd:det_prev ;
 	skos:hasTopConcept amepd:det_str ;
 	skos:hasTopConcept amepd:det_uns ;
@@ -32,6 +33,12 @@ amepd:adj a skos:Concept ;
 	skos:prefLabel "adjective"@en ;
 	skos:notation "adj" ;
 	skos:exactMatch pos:adjective ;
+	skos:inScheme amepd: .
+
+amepd:adv a skos:Concept ;
+	skos:prefLabel "adverb"@en ;
+	skos:notation "adv" ;
+	skos:exactMatch pos:adverb ;
 	skos:inScheme amepd: .
 
 amepd:det_prev a skos:Concept ;
