@@ -7,6 +7,7 @@
 # appreciate acknowlegement of its origin.
 
 @prefix dct:  <http://purl.org/dc/terms/> .
+@prefix pos:  <http://reecedunn.co.uk/linguistics/model/pos/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema> .
 
@@ -16,8 +17,44 @@ amepd: a skos:ConceptScheme ;
 	dct:title "AmEPD Context Tags"@en ;
 	dct:description "This is the context tags used by the AmEPD (American English Pronunciation Dictionary) to identify different pronunciation contexts." ;
 	skos:notation "amepd" ;
+	skos:hasTopConcept amepd:det_prev ;
+	skos:hasTopConcept amepd:det_str ;
+	skos:hasTopConcept amepd:det_uns ;
+	skos:hasTopConcept amepd:conj ;
+	skos:hasTopConcept amepd:noun ;
 	skos:hasTopConcept amepd:2 ;
 	skos:hasTopConcept amepd:3 .
+
+amepd:det_prev a skos:Concept ;
+	skos:prefLabel "prevocalic determiner"@en ;
+	skos:notation "det@prev" ;
+	skos:scopeNote "The next word starts with a vowel."@en ;
+	skos:broadMatch pos:determiner ;
+	skos:inScheme amepd: .
+
+amepd:det_str a skos:Concept ;
+	skos:prefLabel "stressed determiner"@en ;
+	skos:notation "det@str" ;
+	skos:broadMatch pos:determiner ;
+	skos:inScheme amepd: .
+
+amepd:det_uns a skos:Concept ;
+	skos:prefLabel "unstressed determiner"@en ;
+	skos:notation "det@uns" ;
+	skos:broadMatch pos:determiner ;
+	skos:inScheme amepd: .
+
+amepd:conj a skos:Concept ;
+	skos:prefLabel "conjunction"@en ;
+	skos:notation "conj" ;
+	skos:exactMatch pos:conjunction ;
+	skos:inScheme amepd: .
+
+amepd:noun a skos:Concept ;
+	skos:prefLabel "noun"@en ;
+	skos:notation "noun" ;
+	skos:exactMatch pos:noun ;
+	skos:inScheme amepd: .
 
 amepd:2 a skos:Concept ;
 	skos:prefLabel "2"@en ;

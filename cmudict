@@ -12,8 +12,9 @@
 ;;;@@ metadata-format=json @@
 ;;;@@ metadata=@s:expanded @@ The expanded text of the abbreviation/initialism.
 ;;;
-A  AX
-A(2)  EY1
+A(det@uns)  AX
+A(det@str)  EY1
+A(noun)  EY1
 A'S  EY1 Z
 AABERG  AA1 B AXR G
 AACHEN  AA1 K AX N
@@ -3664,8 +3665,9 @@ AMYLOID  AE1 M IH0 L OY2 D
 AMYOTROPHIC  AE2 M AY0 AX T R OW1 F IH0 K
 AMYOTROPHIC(2)  AE2 M IY0 AX T R OW1 F IH0 K
 AMYX  AE1 M IH0 K S
-AN  AE1 N
-AN(2)  AX N
+AN(det@uns)  AX N
+AN(det@str)  AE1 N
+AN(conj)  AE1 N
 ANA  AA1 N AX
 ANA(2)  AE1 N AX
 ANABAPTIST  AE2 N AX B AE1 P T IH0 S T
@@ -115141,9 +115143,9 @@ THAYER  TH EY1 AXR
 THAYER'S  TH EY1 AXR Z
 THAYERS  TH EY1 AXR Z
 THAYNE  TH EY1 N
-THE  DH AX
-THE(2)  DH AH1
-THE(3)  DH IY1
+THE(det@prev)  DH IY1
+THE(det@str)  DH IY1
+THE(det@uns)  DH AX
 THEA  TH IY1 AX
 THEALL  TH IY1 L
 THEANO  TH IY1 N OW0
