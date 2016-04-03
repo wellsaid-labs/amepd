@@ -11,6 +11,7 @@
 ;;;@@ context-format=amepd.ttl @@
 ;;;@@ metadata-format=json @@
 ;;;@@ metadata=@s:expanded @@ The expanded text of the abbreviation/initialism.
+;;;@@ metadata=@s:context @@ How the word is used in a sentence. Used to disambiguate pronunciations.
 ;;;
 A(det@uns)  AX
 A(det@str)  EY1
@@ -65788,11 +65789,11 @@ LEACHING  L IY1 CH IH0 NG
 LEACHMAN  L IY1 CH M AX N
 LEACHMAN'S  L IY1 CH M AX N Z
 LEACOCK  L IY1 K AA2 K
-LEAD  L EH1 D
-LEAD(2)  L IY1 D
+LEAD(noun)  L EH1 D #@@{ "context": "metal" }@@
+LEAD(noun)  L IY1 D #@@{ "context": "LEAD(verb)" }@@ e.g. "a dog lead"
+LEAD(verb)  L IY1 D
 LEADBELLY  L EH1 D B EH0 L IY0
 LEADBETTER  L EH1 D B EH0 T AXR
-LEADBETTER(2)  L IY1 D B IH0 T AXR
 LEADED  L EH1 D IH0 D
 LEADEN  L EH1 D AX N
 LEADER  L IY1 D AXR
@@ -65805,7 +65806,9 @@ LEADERSHIPS  L IY1 D AXR SH IH2 P S
 LEADING  L IY1 D IH0 NG
 LEADINGHAM  L IY1 D IH0 NG HH AE2 M
 LEADOFF  L IY1 D AO2 F
-LEADS  L IY1 D Z
+LEADS(noun)  L EH1 D Z #@@{ "context": "metal" }@@
+LEADS(noun)  L IY1 D Z #@@{ "context": "LEAD(verb)" }@@ e.g. "a dog lead"
+LEADS(verb)  L IY1 D Z
 LEADVILLE  L EH1 D V IH2 L
 LEADWORK  L EH1 D W ER2 K
 LEAF  L IY1 F
