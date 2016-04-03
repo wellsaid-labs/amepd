@@ -17,8 +17,7 @@ amepd: a skos:ConceptScheme ;
 	dct:description "This is the context tags used by the AmEPD (American English Pronunciation Dictionary) to identify different pronunciation contexts." ;
 	skos:notation "amepd" ;
 	skos:hasTopConcept amepd:2 ;
-	skos:hasTopConcept amepd:3 ;
-	skos:hasTopConcept amepd:4 .
+	skos:hasTopConcept amepd:3 .
 
 amepd:2 a skos:Concept ;
 	skos:prefLabel "2"@en ;
@@ -29,11 +28,5 @@ amepd:2 a skos:Concept ;
 amepd:3 a skos:Concept ;
 	skos:prefLabel "3"@en ;
 	skos:notation "3" ;
-	skos:note "An alternate pronunciation." ;
-	skos:inScheme amepd: .
-
-amepd:4 a skos:Concept ;
-	skos:prefLabel "4"@en ;
-	skos:notation "4" ;
 	skos:note "An alternate pronunciation." ;
 	skos:inScheme amepd: .
