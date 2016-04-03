@@ -12,6 +12,7 @@
 ;;;@@ metadata-format=json @@
 ;;;@@ metadata=@s:expanded @@ The expanded text of the abbreviation/initialism.
 ;;;@@ metadata=@s:context @@ How the word is used in a sentence. Used to disambiguate pronunciations.
+;;;@@ metadata=@s:lang @@ The BCP 47 (RFC 5646) language tag for the entry.
 ;;;
 A(det@uns)  AX
 A(det@str)  EY1
@@ -125503,23 +125504,26 @@ WINCHELL'S  W IH1 N CH AX L Z
 WINCHESTER  W IH1 N CH EH2 S T AXR
 WINCING  W IH1 N S IH0 NG
 WINCKLER  W IH1 NG K L AXR
-WIND  W AY1 N D
-WIND(2)  W IH1 N D
+WIND(noun)  W IH1 N D
+WIND(verb)  W AY1 N D
 WIND'S  W IH1 N D Z
 WINDCHILL  W IH1 N D CH IH2 L
 WINDCHIME  W IH1 N D CH AY2 M
 WINDCHIMES  W IH1 N D CH AY2 M Z
+WINDE  W IH1 N D #@@{ "lang": "en-emodeng", "context": "WIND(noun)" }@@
 WINDECKER  W IH1 N D EH2 K AXR
 WINDED  W IH1 N D IH0 D
-WINDED(2)  W AY1 N D IH0 D
 WINDELL  W IH1 N D AX L
 WINDELS  W IH1 N D AX L Z
-WINDER  W IH1 N D AXR
-WINDER(2)  W AY1 N D AXR
-WINDERS  W IH1 N D AXR Z
-WINDERS(2)  W AY1 N D AXR Z
-WINDES  W IH1 N D Z
-WINDES(2)  W AY1 N D Z
+WINDER(noun)  W IH1 N D AXR #@@{ "context": ["WIND(noun)", "WINDOW"] }@@
+WINDER(noun)  W AY1 N D AXR #@@{ "context": "WIND(verb)" }@@
+WINDER(verb)  W IH1 N D AXR #@@{ "context": "WIND(noun)" }@@ to fan
+WINDERED  W IH1 N D AXR D #@@{ "context": "WIND(noun)" }@@ to fan
+WINDERING  W IH1 N D AXR IH0 NG #@@{ "context": "WIND(noun)" }@@ to fan
+WINDERS(noun)  W IH1 N D AXR Z #@@{ "context": ["WIND(noun)", "WINDOW"] }@@
+WINDERS(noun)  W AY1 N D AXR Z #@@{ "context": "WIND(verb)" }@@
+WINDERS(verb)  W IH1 N D AXR Z #@@{ "context": "WIND(noun)" }@@ to fan
+WINDES  W IH1 N D Z #@@{ "lang": "en-emodeng", "context": "WINDS(noun)" }@@
 WINDFALL  W IH1 N D F AO2 L
 WINDFALLS  W IH1 N D F AO2 L Z
 WINDHAM  W IH1 N D AX M
@@ -125547,8 +125551,8 @@ WINDOWLESS  W IH1 N D OW0 L IH0 S
 WINDOWPANE  W IH1 N D OW0 P EY2 N
 WINDOWPANES  W IH1 N D OW0 P EY2 N Z
 WINDOWS  W IH1 N D OW0 Z
-WINDS  W IH1 N D Z
-WINDS(2)  W AY1 N D Z
+WINDS(noun)  W IH1 N D Z
+WINDS(verb)  W AY1 N D Z
 WINDSHIELD  W IH1 N D SH IY2 L D
 WINDSHIELDS  W IH1 N D SH IY2 L D Z
 WINDSOR  W IH1 N Z AXR
