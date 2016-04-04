@@ -19838,8 +19838,10 @@ CHEYENNES  SH AY0 AE1 N Z
 CHEYNE  CH EY1 N
 CHEYNEY  CH EY1 N IY0
 CHEZ  CH EH1 Z
-CHI  K AY1
-CHI'S  K AY1 Z
+CHI(noun)  K AY1 #@@{ "lang": "el", "context": "mathematics" }@@ chi squared, etc.
+CHI(noun)  CH IY1 #@@{ "lang": "zh", "context": "energy" }@@ Tai Chi, etc.
+CHI'S(noun)  K AY1 Z #@@{ "lang": "el", "context": "mathematics" }@@ chi squared, etc.
+CHI'S(noun)  CH IY1 Z #@@{ "lang": "zh", "context": "energy" }@@ Tai Chi, etc.
 CHIA  CH IY1 AX
 CHIANESE  K IY0 AA0 N EY1 Z IY0
 CHIANG  CH AE1 NG
