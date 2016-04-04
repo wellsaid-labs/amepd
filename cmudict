@@ -8572,15 +8572,16 @@ BASQUE  B AE1 S K
 BASQUES  B AE1 S K S
 BASQUEZ  B AA0 S K W EH1 Z
 BASRA  B AA1 S R AA0
-BASS  B AE1 S
-BASS(2)  B EY1 S
-BASS'S  B EY1 S IH0 Z
-BASS'S(2)  B AE1 S IH0 Z
+BASS(noun)  B EY1 S #@@{ "context": "sound" }@@
+BASS(adj)  B EY1 S #@@{ "context": "sound" }@@
+BASS(noun)  B AE1 S #@@{ "context": "fish" }@@
+BASS'S(noun)  B EY1 S IH0 Z #@@{ "context": "sound" }@@
+BASS'S(noun)  B AE1 S IH0 Z #@@{ "context": "fish" }@@
 BASSA  B AE1 S AX
 BASSAM  B AE1 S AX M
 BASSE  B AE1 S
-BASSES  B AE1 S IH0 Z
-BASSES(2)  B EY1 S IH0 Z
+BASSES(noun)  B EY1 S IH0 Z #@@{ "context": "sound" }@@
+BASSES(noun)  B AE1 S IH0 Z #@@{ "context": "fish" }@@
 BASSET  B AE1 S IH0 T
 BASSETT  B AE1 S IH0 T
 BASSETTE  B AX S EH1 T
