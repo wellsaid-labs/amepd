@@ -13406,8 +13406,10 @@ BOVIN  B OW1 V IH0 N
 BOVINA  B OW0 V IY1 N AX
 BOVINE  B OW1 V AY2 N
 BOVINO  B OW0 V IY1 N OW0
-BOW  B AW1
-BOW(2)  B OW1
+BOW(noun)  B OW1
+BOW(verb)  B OW1
+BOW(noun)  B AW1 #@@{ "context": ["ship", "bend", "debut"] }@@
+BOW(verb)  B AW1 #@@{ "context": ["bend", "debut"] }@@
 BOWAR  B OW1 AXR
 BOWARD  B OW1 AXR D
 BOWATER  B AW1 AH2 T AXR
@@ -13421,8 +13423,8 @@ BOWDITCH  B OW1 D IH0 CH
 BOWDLE  B OW1 D AX L
 BOWDOIN  B OW0 D OY1 N
 BOWE  B OW1
-BOWED  B AW1 D
-BOWED(2)  B OW1 D
+BOWED(verb)  B OW1 D
+BOWED(verb)  B AW1 D #@@{ "context": ["bend", "debut"] }@@
 BOWEL  B AW1 AX L
 BOWELL  B AA1 W EH0 L
 BOWELS  B AW1 AX L Z
@@ -13440,8 +13442,8 @@ BOWERY'S  B AW1 AXR IY0 Z
 BOWES  B OW1 Z
 BOWICK  B OW1 IH0 K
 BOWIE  B OW1 IY0
-BOWING  B OW1 IH0 NG
-BOWING(2)  B AW1 IH0 NG
+BOWING(verb)  B OW1 IH0 NG
+BOWING(verb)  B AW1 IH0 NG #@@{ "context": ["bend", "debut"] }@@
 BOWKER  B OW1 K AXR
 BOWL  B OW1 L
 BOWLAND  B OW1 L AX N D
@@ -13469,8 +13471,10 @@ BOWNE  B OW1 N
 BOWRING  B OW1 R IH0 NG
 BOWRON  B OW1 R AX N
 BOWRON(2)  B OW1 R AA2 N
-BOWS  B AW1 Z
-BOWS(2)  B OW1 Z
+BOWS(noun)  B OW1 Z
+BOWS(verb)  B OW1 Z
+BOWS(noun)  B AW1 Z #@@{ "context": ["ship", "bend", "debut"] }@@
+BOWS(verb)  B AW1 Z #@@{ "context": ["ship", "bend", "debut"] }@@
 BOWSE  B OW1 S
 BOWSED  B AW1 Z D
 BOWSER  B OW1 Z AXR
