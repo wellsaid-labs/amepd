@@ -15379,16 +15379,18 @@ BUFFERED  B AH1 F AXR D
 BUFFERIN  B AH1 F AXR IH0 N
 BUFFERING  B AH1 F AXR IH0 NG
 BUFFERS  B AH1 F AXR Z
-BUFFET  B AH1 F AX T
-BUFFET(2)  B AX F EY1
-BUFFETED  B AX F EY1 D
-BUFFETED(2)  B AH1 F IH2 T IH0 D
-BUFFETING  B AX F EY1 IH0 NG
-BUFFETING(2)  B AH1 F AX T IH0 NG
-BUFFETS  B AH1 F AX T S
-BUFFETS(2)  B AX F EY1 Z
+BUFFET(noun)  B AH1 F IH0 T #@@{ "context": ["blow", "collision", "cuff"] }@@
+BUFFET(noun)  B AH1 F EY0 #@@{ "context": "food" }@@
+BUFFET(verb)  B AH1 F IH0 T #@@{ "context": ["blow", "collision", "cuff"] }@@
+BUFFETED(verb)  B AH1 F IH0 T IH0 D #@@{ "context": ["blow", "collision", "cuff"] }@@
+BUFFETED(verb)  B AH1 F EY0 IH0 D #@@{ "context": "food" }@@
+BUFFETING(verb)  B AH1 F IH0 T IH0 NG #@@{ "context": ["blow", "collision", "cuff"] }@@
+BUFFETING(verb)  B AH1 F EY0 IH0 NG #@@{ "context": "food" }@@
+BUFFETS(noun)  B AH1 F IH0 T S #@@{ "context": ["blow", "collision", "cuff"] }@@
+BUFFETS(noun)  B AH1 F EY0 Z #@@{ "context": "food" }@@
+BUFFETS(verb)  B AH1 F IH0 T S #@@{ "context": ["blow", "collision", "cuff"] }@@
 BUFFETT  B AH1 F IH0 T
-BUFFETT'S  B AH1 F AX T S
+BUFFETT'S  B AH1 F IH0 T S
 BUFFIN  B AH1 F IH0 N
 BUFFINGTON  B AH1 F IH0 NG T AX N
 BUFFKIN  B AH1 F K IH0 N
