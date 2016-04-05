@@ -22235,7 +22235,10 @@ COMBATTING  K AX M B AE1 T IH0 NG
 COMBE  K OW1 M
 COMBED  K OW1 M D
 COMBEE  K AA1 M B IY2
-COMBER  K OW1 M AXR
+COMBER(noun)  K OW1 M AXR #@@{ "context": "COMB" }@@
+COMBER(noun)  K AA1 M B AXR #@@{ "context": "fish" }@@
+COMBERS(noun)  K OW1 M AXR Z #@@{ "context": "COMB" }@@
+COMBERS(noun)  K AA1 M B AXR Z #@@{ "context": "fish" }@@
 COMBES  K OW1 M Z
 COMBEST  K OW1 M IH0 S T
 COMBINABILITY  K AX M B AY2 N AX B IH1 L AX T IY0
