@@ -24951,7 +24951,10 @@ COVES  K OW1 V Z
 COVET  K AH1 V AX T
 COVETED  K AH1 V AX T IH0 D
 COVETS  K AH1 V AX T S
-COVEY  K AH1 V IY0
+COVEY(noun)  K AH1 V IY0 #@@{ "context": ["bird", "group"] }@@
+COVEY(noun)  K OW1 V IY0 #@@{ "context": "a man" }@@
+COVEYS(noun)  K AH1 V IY0 Z #@@{ "context": ["bird", "group"] }@@
+COVEYS(noun)  K OW1 V IY0 Z #@@{ "context": "a man" }@@
 COVIA  K OW1 V IY0 AX
 COVIELLO  K OW2 V IY0 EH1 L OW0
 COVILL  K AA1 V AX L
