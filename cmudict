@@ -31827,7 +31827,9 @@ DMITRI(2)  D M IY1 T R IY0
 DNASE  D IY1 EH2 N EY2 S
 DNASE(2)  D IY1 EH2 N EY2 Z
 DNIESTER  D AX N IY1 S T AXR
-DO  D UW1
+DO(verb)  D UW1
+DO(noun)  D UW1
+DO(noun)  D OW1 #@@{ "context": "music" }@@
 DO'S  D UW1 Z
 DOABLE  D UW1 AX B AX L
 DOAK  D OW1 K
@@ -32535,8 +32537,9 @@ DORVAL  D AO1 R V AX L
 DORWARD  D AO1 R W AXR D
 DORWART  D AO1 R W AO0 R T
 DORY  D AO1 R IY0
-DOS  D AO1 S
-DOS(2)  D OW1 S
+DOS(noun)  D UW1 Z
+DOS(noun)  D OW1 Z #@@{ "context": "music" }@@
+DOS(num)  D AO1 S #@@{ "lang": "es" }@@
 DOSAGE  D OW1 S IH0 JH
 DOSAGES  D OW1 S IH0 JH IH0 Z
 DOSCH  D AO1 SH
