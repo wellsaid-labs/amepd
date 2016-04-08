@@ -70045,7 +70045,8 @@ MAGAZINES  M AE1 G AX Z IY2 N Z
 MAGBY  M AE1 G B IY0
 MAGDA  M AE1 G D AX
 MAGDALA  M AA0 G D AA1 L AX
-MAGDALEN  M AE1 G D AX L AX N
+MAGDALEN(noun)  M AE1 G D AX L IH0 N #@@{ "context": "name/surname" }@@ Myra Magdalen
+MAGDALEN(noun)  M AO1 D L IH0 N #@@{ "context": "college" }@@ Magdalen College, Oxford
 MAGDALENA  M AE2 G D AX L IY1 N AX
 MAGDALENE  M AE1 G D AX L IY2 N
 MAGDALENO  M AA0 G D AA0 L EY1 N OW0
