@@ -71257,7 +71257,8 @@ MARDI  M AA1 R D IY0
 MARDIS  M AA1 R D IH0 S
 MARDIS(2)  M AA1 R D IY0 S
 MARDON  M AA1 R D AX N
-MARE  M EH1 R
+MARE(noun)  M EH1 R
+MARE(noun)  M AA1 R EY0 #@@{ "lang": "la", "context": ["sea", "planets"] }@@
 MARE'S  M EH1 R Z
 MAREADY  M AXR EH1 D IY0
 MAREAN  M AA0 R IY1 N
@@ -71332,7 +71333,8 @@ MARGUS  M AA1 R G AX S
 MARGY  M AA1 R JH IY0
 MARHEFKA  M AXR HH EH1 F K AX
 MARI  M AA1 R IY0
-MARIA  M AXR IY1 AX
+MARIA(noun)  M AXR IY1 AX #@@{ "context": "name/female" }@@ Maria Elena Bello
+MARIA(noun)  M AA1 R IY0 AX #@@{ "lang": "la", "context": ["sea", "planets"] }@@
 MARIA'S  M AXR IY1 AX Z
 MARIACHI  M AA2 R IY0 AA1 CH IY0
 MARIAH  M AXR AY1 AX
