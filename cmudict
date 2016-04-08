@@ -70782,7 +70782,8 @@ MANED  M EY1 N D
 MANELLA  M AX N EH1 L AX
 MANER  M EY1 N AXR
 MANERS  M EY1 N AXR Z
-MANES  M EY1 N Z
+MANES(noun)  M EY1 N Z
+MANES(noun)  M AA1 N EY0 Z #@@{ "lang": "la", "context": ["spirit/dead", "capitalized"] }@@
 MANESS  M AA1 N IH0 S
 MANET  M AE0 N EY1
 MANET(2)  M AA0 N EY1
