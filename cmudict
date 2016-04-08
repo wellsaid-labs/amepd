@@ -79081,7 +79081,10 @@ NAMIS  N AE1 M IH0 S
 NAMPHY  N AE1 M F IY0
 NAN  N AE1 N
 NAN'S  N AE1 N Z
-NANA  N AE1 N AX
+NANA(noun)  N AE1 N AX #@@{ "context": "grandmother" }@@
+NANA(noun)  N AA1 N AX #@@{ "context": ["banana", "fool"] }@@
+NANAS(noun)  N AE1 N AX Z #@@{ "context": "grandmother" }@@
+NANAS(noun)  N AA1 N AX Z #@@{ "context": ["banana", "fool"] }@@
 NANCARROW  N AE2 NG K AE1 R OW0
 NANCE  N AE1 N S
 NANCHANG  N AE1 N CH AE1 NG
