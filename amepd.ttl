@@ -23,6 +23,7 @@ amepd: a skos:ConceptScheme ;
 	skos:hasTopConcept amepd:det_str ;
 	skos:hasTopConcept amepd:det_uns ;
 	skos:hasTopConcept amepd:conj ;
+	skos:hasTopConcept amepd:intj ;
 	skos:hasTopConcept amepd:noun ;
 	skos:hasTopConcept amepd:num ;
 	skos:hasTopConcept amepd:prep ;
@@ -66,6 +67,12 @@ amepd:conj a skos:Concept ;
 	skos:prefLabel "conjunction"@en ;
 	skos:notation "conj" ;
 	skos:exactMatch pos:conjunction ;
+	skos:inScheme amepd: .
+
+amepd:intj a skos:Concept ;
+	skos:prefLabel "interjection"@en ;
+	skos:notation "intj" ;
+	skos:exactMatch pos:interjection ;
 	skos:inScheme amepd: .
 
 amepd:noun a skos:Concept ;
