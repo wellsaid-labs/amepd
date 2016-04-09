@@ -90530,10 +90530,14 @@ PRECRASH  P R IY0 K R AE1 SH
 PRECURSOR  P R IY0 K ER1 S AXR
 PRECURSORS  P R IY0 K ER1 S AXR Z
 PREDACEOUS  P R IY0 D EY1 SH AX S
-PREDATE  P R IY0 D EY1 T
-PREDATE(2)  P R IY1 D EY1 T
-PREDATED  P R IY0 D EY1 T IH0 D
-PREDATED(2)  P R IY1 D EY1 T IH0 D
+PREDATE(verb)  P R IH0 D EY1 T #@@{ "context": "action" }@@
+PREDATE(verb)  P R IY1 D EY1 T #@@{ "context": "time" }@@
+PREDATE(noun)  P R IY1 D EY1 T
+PREDATED(verb)  P R IH0 D EY1 T IH0 D #@@{ "context": "action" }@@
+PREDATED(verb)  P R IY1 D EY1 T IH0 D #@@{ "context": "time" }@@
+PREDATES(verb)  P R IH0 D EY1 T S #@@{ "context": "action" }@@
+PREDATES(verb)  P R IY1 D EY1 T S #@@{ "context": "time" }@@
+PREDATES(noun)  P R IY1 D EY1 T S
 PREDATES  P R IY1 D EY1 T S
 PREDATION  P R AX D EY1 SH AX N
 PREDATOR  P R EH1 D AX T AXR
