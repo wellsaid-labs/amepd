@@ -10,9 +10,10 @@
 ;;;
 ;;;@@ context-format=amepd.ttl @@
 ;;;@@ metadata-format=json @@
-;;;@@ metadata=@s:expanded @@ The expanded text of the abbreviation/initialism.
 ;;;@@ metadata=@s:context @@ How the word is used in a sentence. Used to disambiguate pronunciations.
+;;;@@ metadata=@s:expanded @@ The expanded text of the abbreviation/initialism.
 ;;;@@ metadata=@s:lang @@ The BCP 47 (RFC 5646) language tag for the entry.
+;;;@@ metadata=@s:root @@ The root word which this word or pronunciation is derived.
 ;;;
 A(det@uns)  AX
 A(det@str)  EY1
@@ -4743,7 +4744,7 @@ APPLIN  AE1 P L IH0 N
 APPLING  AE1 P AX L IH0 NG
 APPLING(2)  AE1 P L IH0 NG
 APPLY(verb)  AX P L AY1
-APPLY(adj)  AX P AX L IY0 #@@{ "context": "APPLEY" }@@
+APPLY(adj)  AX P AX L IY0 #@@{ "root": "APPLE" }@@
 APPLYING  AX P L AY1 IH0 NG
 APPOINT  AX P OY1 N T
 APPOINTED  AX P OY1 N T IH0 D
@@ -6844,9 +6845,9 @@ AXELRAD  AE0 K S EH1 L R AX D
 AXELROD  AE1 K S AX L R AA2 D
 AXELSEN  AE0 K S EH1 L S AX N
 AXELSON  AE1 K S IH0 L S AX N
-AXES(noun)  AE1 K S IH0 Z #@@{ "context": "AXE" }@@
-AXES(verb)  AE1 K S IH0 Z #@@{ "context": "AXE" }@@
-AXES(noun)  AE1 K S IY0 Z #@@{ "context": "AXIS" }@@
+AXES(noun)  AE1 K S IH0 Z #@@{ "root": "AXE" }@@
+AXES(verb)  AE1 K S IH0 Z #@@{ "root": "AXE" }@@
+AXES(noun)  AE1 K S IY0 Z #@@{ "root": "AXIS" }@@
 AXFORD  AE0 K S F AO1 R D
 AXIAL  AE1 K S IY0 AX L
 AXID  AE1 K S IH0 D
@@ -8499,9 +8500,9 @@ BASEMENT  B EY1 S M AX N T
 BASEMENTS  B EY1 S M AX N T S
 BASENJI  B AX S EH1 N JH IY0
 BASER  B EY1 S AXR
-BASES(noun)  B EY1 S IH0 Z #@@{ "context": "BASE" }@@
-BASES(verb)  B EY1 S IH0 Z #@@{ "context": "BASE" }@@
-BASES(noun)  B EY1 S IY0 Z #@@{ "context": "BASIS" }@@
+BASES(noun)  B EY1 S IH0 Z #@@{ "root": "BASE" }@@
+BASES(verb)  B EY1 S IH0 Z #@@{ "root": "BASE" }@@
+BASES(noun)  B EY1 S IY0 Z #@@{ "root": "BASIS" }@@
 BASEY  B EY1 S IY0
 BASFORD  B AE1 S F AXR D
 BASGALL  B AE1 S G AX L
@@ -8652,8 +8653,8 @@ BATESVILLE  B EY1 T S V IH2 L
 BATEY  B EY1 T IY0
 BATH  B AE1 TH
 BATHE  B EY1 DH
-BATHED(verb@past)  B EY1 DH D #@@{ "context": "BATHE" }@@
-BATHED(verb@past)  B AE1 TH D #@@{ "context": "BATH" }@@
+BATHED(verb@past)  B EY1 DH D #@@{ "root": "BATHE" }@@
+BATHED(verb@past)  B AE1 TH D #@@{ "root": "BATH" }@@
 BATHER  B EY1 DH AXR
 BATHERS  B EY1 DH AXR Z
 BATHES  B EY1 DH Z
@@ -22237,9 +22238,9 @@ COMBATTING  K AX M B AE1 T IH0 NG
 COMBE  K OW1 M
 COMBED  K OW1 M D
 COMBEE  K AA1 M B IY2
-COMBER(noun)  K OW1 M AXR #@@{ "context": "COMB" }@@
+COMBER(noun)  K OW1 M AXR #@@{ "root": "COMB" }@@
 COMBER(noun)  K AA1 M B AXR #@@{ "context": "fish" }@@
-COMBERS(noun)  K OW1 M AXR Z #@@{ "context": "COMB" }@@
+COMBERS(noun)  K OW1 M AXR Z #@@{ "root": "COMB" }@@
 COMBERS(noun)  K AA1 M B AXR Z #@@{ "context": "fish" }@@
 COMBES  K OW1 M Z
 COMBEST  K OW1 M IH0 S T
@@ -23941,7 +23942,7 @@ COONS  K UW1 N Z
 COONTZ  K UW1 N T S
 COOP(noun)  K UW1 P
 COOP(verb)  K UW1 P
-COOP(noun)  K OW1 AA0 P #@@{ "context": "CO-OP" }@@
+COOP(noun)  K OW1 AA0 P #@@{ "root": "CO-OP" }@@
 COOPED  K UW1 P T
 COOPER  K UW1 P AXR
 COOPER'S  K UW1 P AXR Z
@@ -23968,7 +23969,7 @@ COOPMAN  K UW1 P M AX N
 COOPRIDER  K UW1 P R AY2 D AXR
 COOPS(noun)  K UW1 P S
 COOPS(verb)  K UW1 P S
-COOPS(noun)  K OW1 AA0 P S #@@{ "context": "CO-OP" }@@
+COOPS(noun)  K OW1 AA0 P S #@@{ "root": "CO-OP" }@@
 COORDINATE(noun)  K OW0 AO1 R D AX N IH0 T
 COORDINATE(adj)  K OW0 AO1 R D AX N IH0 T
 COORDINATE(verb)  K OW0 AO1 R D AX N EY2 T
@@ -30138,8 +30139,8 @@ DIACRITICAL  D AY2 AX K R IH1 T AX K AX L
 DIADEM  D AY1 AX D EH2 M
 DIAGNOSE  D AY2 AX G N OW1 Z
 DIAGNOSED  D AY2 AX G N OW1 Z D
-DIAGNOSES(verb)  D AY2 AX G N OW1 S IY0 Z #@@{ "context": "DIAGNOSE" }@@
-DIAGNOSES(noun)  D AY2 AX G N OW1 S IH0 S IH0 Z #@@{ "context": "DIAGNOSIS" }@@
+DIAGNOSES(verb)  D AY2 AX G N OW1 S IY0 Z #@@{ "root": "DIAGNOSE" }@@
+DIAGNOSES(noun)  D AY2 AX G N OW1 S IH0 S IH0 Z #@@{ "root": "DIAGNOSIS" }@@
 DIAGNOSING  D AY2 AX G N OW1 Z IH0 NG
 DIAGNOSIS  D AY2 AX G N OW1 S IH0 S
 DIAGNOSTEK  D AY2 AX G N AA1 S T EH0 K
@@ -31140,7 +31141,7 @@ DISCOS  D IH1 S K OW0 Z
 DISCOTHEQUE  D IH1 S K OW0 T EH2 K
 DISCOUNT(noun)  D IH1 S K AW0 N T #@@{ "context": "money" }@@
 DISCOUNT(adj)  D IH1 S K AW0 N T #@@{ "context": "money" }@@
-DISCOUNT(verb)  D IH0 S K AW1 N T #@@{ "context": ["ignore", "DIS-COUNT"] }@@
+DISCOUNT(verb)  D IH0 S K AW1 N T #@@{ "context": "ignore", "root": "COUNT" }@@
 DISCOUNT(verb)  D IH1 S K AW0 N T #@@{ "context": "money" }@@
 DISCOUNTABLE  D IH1 S K AW2 N T AX B AX L
 DISCOUNTED  D IH1 S K AW2 N T IH0 D
@@ -31149,7 +31150,7 @@ DISCOUNTERS  D IH0 S K AW1 N T AXR Z
 DISCOUNTING  D IH1 S K AW2 N T IH0 NG
 DISCOUNTS(noun)  D IH1 S K AW0 N T S #@@{ "context": "money" }@@
 DISCOUNTS(adj)  D IH1 S K AW0 N T S #@@{ "context": "money" }@@
-DISCOUNTS(verb)  D IH0 S K AW1 N T S #@@{ "context": ["ignore", "DIS-COUNT"] }@@
+DISCOUNTS(verb)  D IH0 S K AW1 N T S #@@{ "context": "ignore", "root": "COUNT" }@@
 DISCOUNTS(verb)  D IH1 S K AW0 N T S #@@{ "context": "money" }@@
 DISCOURAGE  D IH0 S K ER1 IH0 JH
 DISCOURAGED  D IH0 S K ER1 IH0 JH D
@@ -32940,9 +32941,9 @@ DRAWDOWN  D R AO1 D AW2 N
 DRAWDOWNS  D R AO1 D AW2 N Z
 DRAWDY  D R AO1 D IY0
 DRAWER(noun)  D R AO1 R #@@{ "context": "box" }@@
-DRAWER(noun)  D R AO1 R AXR #@@{ "context": ["person", "DRAW"] }@@
+DRAWER(noun)  D R AO1 R AXR #@@{ "context": "person", "root": "DRAW" }@@
 DRAWERS(noun)  D R AO1 R Z #@@{ "context": "box" }@@
-DRAWERS(noun)  D R AO1 R AXR Z #@@{ "context": ["person", "DRAW"] }@@
+DRAWERS(noun)  D R AO1 R AXR Z #@@{ "context": "person", "root": "DRAW" }@@
 DRAWING  D R AO1 IH0 NG
 DRAWINGS  D R AO1 IH0 NG Z
 DRAWL  D R AO1 L
@@ -35410,8 +35411,8 @@ ELLIOT  EH1 L IY0 AX T
 ELLIOTT  EH1 L IY0 AX T
 ELLIOTT'S  EH1 L IY0 AX T S
 ELLIPSE  IH0 L IH1 P S
-ELLIPSES(noun)  IH0 L IH1 P S IH0 Z #@@{ "context": "ELLIPSE" }@@
-ELLIPSES(noun)  IH0 L IH1 P S IY0 Z #@@{ "context": "ELLIPSES" }@@
+ELLIPSES(noun)  IH0 L IH1 P S IH0 Z #@@{ "root": "ELLIPSE" }@@
+ELLIPSES(noun)  IH0 L IH1 P S IY0 Z #@@{ "root": "ELLIPSES" }@@
 ELLIPSIS  IH0 L IH1 P S IH0 S
 ELLIPSOID  IH0 L IH1 P S OY0 D
 ELLIPSOIDS  IH0 L IH1 P S OY0 D Z
@@ -65851,7 +65852,7 @@ LEACHMAN  L IY1 CH M AX N
 LEACHMAN'S  L IY1 CH M AX N Z
 LEACOCK  L IY1 K AA2 K
 LEAD(noun)  L EH1 D #@@{ "context": "metal" }@@
-LEAD(noun)  L IY1 D #@@{ "context": "LEAD(verb)" }@@ e.g. "a dog lead"
+LEAD(noun)  L IY1 D #@@{ "root": "LEAD(verb)" }@@ e.g. "a dog lead"
 LEAD(verb)  L IY1 D
 LEADBELLY  L EH1 D B EH0 L IY0
 LEADBETTER  L EH1 D B EH0 T AXR
@@ -65868,7 +65869,7 @@ LEADING  L IY1 D IH0 NG
 LEADINGHAM  L IY1 D IH0 NG HH AE2 M
 LEADOFF  L IY1 D AO2 F
 LEADS(noun)  L EH1 D Z #@@{ "context": "metal" }@@
-LEADS(noun)  L IY1 D Z #@@{ "context": "LEAD(verb)" }@@ e.g. "a dog lead"
+LEADS(noun)  L IY1 D Z #@@{ "root": "LEAD(verb)" }@@ e.g. "a dog lead"
 LEADS(verb)  L IY1 D Z
 LEADVILLE  L EH1 D V IH2 L
 LEADWORK  L EH1 D W ER2 K
@@ -85033,8 +85034,8 @@ PALLADINO  P AA0 L AA0 D IY1 N OW0
 PALLADIUM  P AX L EY1 D IY0 AX M
 PALLANTE  P AA0 L AA1 N T IY0
 PALLAS  P AE1 L AX S
-PALLED(verb)  P AO1 L D #@@{ "context": "PALL" }@@
-PALLED(verb)  P AE1 L D #@@{ "context": "PAL" }@@
+PALLED(verb)  P AO1 L D #@@{ "root": "PALL" }@@
+PALLED(verb)  P AE1 L D #@@{ "root": "PAL" }@@
 PALLER  P AE1 L AXR
 PALLESCHI  P AA0 L EH1 S K IY0
 PALLET  P AE1 L AX T
@@ -85044,8 +85045,8 @@ PALLIATIVE  P AE1 L IY0 IH0 T IH0 V
 PALLIATIVES  P AE1 L IY0 IH0 T IH0 V Z
 PALLID  P AE1 L AX D
 PALLIDOTOMY  P AE2 L IH0 D AO1 T AX M IY0
-PALLING(verb)  P AO1 L IH0 NG #@@{ "context": "PALL" }@@
-PALLING(verb)  P AE1 L IH0 NG #@@{ "context": "PAL" }@@
+PALLING(verb)  P AO1 L IH0 NG #@@{ "root": "PALL" }@@
+PALLING(verb)  P AE1 L IH0 NG #@@{ "root": "PAL" }@@
 PALLO  P AE1 L OW0
 PALLONE  P AA0 L OW1 N IY0
 PALM  P AA1 M
@@ -125657,20 +125658,20 @@ WIND'S  W IH1 N D Z
 WINDCHILL  W IH1 N D CH IH2 L
 WINDCHIME  W IH1 N D CH AY2 M
 WINDCHIMES  W IH1 N D CH AY2 M Z
-WINDE  W IH1 N D #@@{ "lang": "en-emodeng", "context": "WIND(noun)" }@@
+WINDE  W IH1 N D #@@{ "lang": "en-emodeng", "root": "WIND(noun)" }@@
 WINDECKER  W IH1 N D EH2 K AXR
 WINDED  W IH1 N D IH0 D
 WINDELL  W IH1 N D AX L
 WINDELS  W IH1 N D AX L Z
-WINDER(noun)  W IH1 N D AXR #@@{ "context": ["WIND(noun)", "WINDOW"] }@@
-WINDER(noun)  W AY1 N D AXR #@@{ "context": "WIND(verb)" }@@
-WINDER(verb)  W IH1 N D AXR #@@{ "context": "WIND(noun)" }@@ to fan
-WINDERED  W IH1 N D AXR D #@@{ "context": "WIND(noun)" }@@ to fan
-WINDERING  W IH1 N D AXR IH0 NG #@@{ "context": "WIND(noun)" }@@ to fan
-WINDERS(noun)  W IH1 N D AXR Z #@@{ "context": ["WIND(noun)", "WINDOW"] }@@
-WINDERS(noun)  W AY1 N D AXR Z #@@{ "context": "WIND(verb)" }@@
-WINDERS(verb)  W IH1 N D AXR Z #@@{ "context": "WIND(noun)" }@@ to fan
-WINDES  W IH1 N D Z #@@{ "lang": "en-emodeng", "context": "WINDS(noun)" }@@
+WINDER(noun)  W IH1 N D AXR #@@{ "root": ["WIND(noun)", "WINDOW"] }@@
+WINDER(noun)  W AY1 N D AXR #@@{ "root": "WIND(verb)" }@@
+WINDER(verb)  W IH1 N D AXR #@@{ "root": "WIND(noun)" }@@ to fan
+WINDERED  W IH1 N D AXR D #@@{ "root": "WIND(noun)" }@@ to fan
+WINDERING  W IH1 N D AXR IH0 NG #@@{ "root": "WIND(noun)" }@@ to fan
+WINDERS(noun)  W IH1 N D AXR Z #@@{ "root": ["WIND(noun)", "WINDOW"] }@@
+WINDERS(noun)  W AY1 N D AXR Z #@@{ "root": "WIND(verb)" }@@
+WINDERS(verb)  W IH1 N D AXR Z #@@{ "root": "WIND(noun)" }@@ to fan
+WINDES  W IH1 N D Z #@@{ "lang": "en-emodeng", "root": "WINDS(noun)" }@@
 WINDFALL  W IH1 N D F AO2 L
 WINDFALLS  W IH1 N D F AO2 L Z
 WINDHAM  W IH1 N D AX M
