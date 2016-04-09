@@ -90429,12 +90429,11 @@ PRAXAIR  P R AE1 K S EH1 R
 PRAXIS  P R AE1 K S IH0 S
 PRAY  P R EY1
 PRAYED  P R EY1 D
-PRAYER  P R EH1 R
-PRAYER(2)  P R EY1 AXR
+PRAYER(noun)  P R EH1 R #@@{ "context": "action" }@@
+PRAYER(noun)  P R EY1 AXR #@@{ "context": "person", "root": "PRAY" }@@
 PRAYERFUL  P R EH1 R F AX L
-PRAYERFUL(2)  P R EY1 AXR F AX L
-PRAYERS  P R EH1 R Z
-PRAYERS(2)  P R EY1 AXR Z
+PRAYERS(noun)  P R EH1 R Z #@@{ "context": "action" }@@
+PRAYERS(noun)  P R EY1 AXR Z #@@{ "context": "person", "root": "PRAY" }@@
 PRAYING  P R EY1 IH0 NG
 PRAYS  P R EY1 Z
 PRAYTOR  P R EY1 T AXR
