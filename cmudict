@@ -87122,12 +87122,16 @@ PERMISSION  P AXR M IH1 SH AX N
 PERMISSIONS  P AXR M IH1 SH AX N Z
 PERMISSIVE  P AXR M IH1 S IH0 V
 PERMISSIVENESS  P AXR M IH1 S IH0 V N IH0 S
-PERMIT  P AXR M IH1 T
-PERMIT(2)  P ER1 M IH2 T
-PERMITS  P AXR M IH1 T S
-PERMITS(2)  P ER1 M IH2 T S
-PERMITTED  P AXR M IH1 T IH0 D
-PERMITTING  P AXR M IH1 T IH0 NG
+PERMIT(verb)  P AXR M IH1 T #@@{ "context": ["allow", "admit", "hand over", "resign"] }@@
+PERMIT(noun)  P ER1 M IH0 T
+PERMIT(verb)  P ER1 M IH0 T #@@{ "context": "authorization" }@@
+PERMITS(verb)  P AXR M IH1 T S #@@{ "context": ["allow", "admit", "hand over", "resign"] }@@
+PERMITS(noun)  P ER1 M IH0 T S
+PERMITS(verb)  P ER1 M IH0 T S #@@{ "context": "authorization" }@@
+PERMITTED(verb)  P AXR M IH1 T IH0 D #@@{ "context": ["allow", "admit", "hand over", "resign"] }@@
+PERMITTED(verb)  P ER1 M IH0 T IH0 D #@@{ "context": "authorization" }@@
+PERMITTING(verb)  P AXR M IH1 T IH0 NG #@@{ "context": ["allow", "admit", "hand over", "resign"] }@@
+PERMITTING(verb)  P ER1 M IH0 T IH0 NG #@@{ "context": "authorization" }@@
 PERMOUNT  P ER1 M AW2 N T
 PERMUT  P ER1 M AX T
 PERMUTATE  P ER1 M Y UW0 T EY2 T
