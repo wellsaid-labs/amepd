@@ -94321,7 +94321,10 @@ REAGENTS  R IY0 EY1 JH AX N T S
 REAGENTS(2)  R IY1 JH AX N T S
 REAGLE  R IY1 G AX L
 REAGOR  R IY1 G AXR
-REAL  R IY1 L
+REAL(adj)  R IY1 L
+REAL(adv)  R IY1 L
+REAL(noun)  R IY1 L
+REAL(noun)  R EY1 AA0 L #@@{ "lang": ["es", "pt"], "context": ["currency", "sport"] }@@ e.g. Real Madrid
 REALAMERICA  R IY2 L AX M EH1 R IH0 K AX
 REALCAP  R IY1 L K AE2 P
 REALE  R IY1 L
@@ -94361,6 +94364,8 @@ REALM  R EH1 L M
 REALMS  R EH1 L M Z
 REALMUTO  R AX L M UW1 T OW0
 REALPOLITIK  R IY2 L P AO2 L IH0 T IH1 K
+REALS(noun)  R IY1 L Z
+REALS(noun)  R EY1 AA0 L Z #@@{ "lang": ["es", "pt"], "context": "currency" }@@
 REALTOR  R IY1 AX L T AXR
 REALTOR(2)  R IY1 L T AXR
 REALTOR'S  R IY1 AX L T AXR Z
