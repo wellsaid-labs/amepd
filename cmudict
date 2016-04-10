@@ -92575,13 +92575,19 @@ PUTT  P AH1 T
 PUTTABLE  P AH1 T AX B AX L
 PUTTED  P AH1 T IH0 D
 PUTTENBAY  P AH1 T IH0 N B EY2
-PUTTER  P AH1 T AXR
+PUTTER(noun)  P AH1 T AXR #@@{ "root": "PUTT", "context": "golf" }@@
+PUTTER(noun)  P UH1 T AXR #@@{ "root": "PUT" }@@
+PUTTER(verb)  P AH1 T AXR
 PUTTERER  P AH1 T AXR AXR
 PUTTERING  P AH1 T AXR IH0 NG
 PUTTERMAN  P AH1 T AXR M AX N
-PUTTERS  P AH1 T AXR Z
-PUTTING  P AH1 T IH0 NG
-PUTTING(2)  P UH1 T IH0 NG
+PUTTERS(noun)  P AH1 T AXR Z #@@{ "root": "PUTT", "context": "golf" }@@
+PUTTERS(noun)  P UH1 T AXR Z #@@{ "root": "PUT" }@@
+PUTTERS(verb)  P AH1 T AXR Z
+PUTTING(noun)  P UH1 T IH0 NG #@@{ "root": "PUT" }@@
+PUTTING(verb)  P UH1 T IH0 NG #@@{ "root": "PUT" }@@
+PUTTING(noun)  P AH1 T IH0 NG #@@{ "root": "PUTT", "context": "golf" }@@
+PUTTING(verb)  P AH1 T IH0 NG #@@{ "root": "PUTT", "context": "golf" }@@
 PUTTNAM  P AH1 T N AX M
 PUTTNAM'S  P AH1 T N AX M Z
 PUTTS  P AH1 T S
