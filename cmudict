@@ -95082,9 +95082,16 @@ REDRAFTED  R IY0 D R AE1 F T IH0 D
 REDRAW  R IY0 D R AO1
 REDRAWING  R IY0 D R AO1 IH0 NG
 REDRAWN  R IY0 D R AO1 N
-REDRESS  R IH0 D R EH1 S
-REDRESS(2)  R IY1 D R EH0 S
-REDRESSING  R IY0 D R EH1 S IH0 NG
+REDRESS(noun)  R IH0 D R EH1 S #@@{ "context": ["correct", "restore"] }@@
+REDRESS(verb)  R IH0 D R EH1 S #@@{ "context": ["correct", "restore"] }@@
+REDRESS(noun)  R IY0 D R EH1 S #@@{ "root": "DRESS" }@@
+REDRESS(verb)  R IY0 D R EH1 S #@@{ "root": "DRESS" }@@
+REDRESSES(noun)  R IH0 D R EH1 S IH0 Z #@@{ "context": ["correct", "restore"] }@@
+REDRESSES(verb)  R IH0 D R EH1 S IH0 Z #@@{ "context": ["correct", "restore"] }@@
+REDRESSES(noun)  R IY0 D R EH1 S IH0 Z #@@{ "root": "DRESS" }@@
+REDRESSES(verb)  R IY0 D R EH1 S IH0 Z #@@{ "root": "DRESS" }@@
+REDRESSING(verb)  R IH0 D R EH1 S IH0 NG #@@{ "context": ["correct", "restore"] }@@
+REDRESSING(verb)  R IY0 D R EH1 S IH0 NG #@@{ "root": "DRESS" }@@
 REDS  R EH1 D Z
 REDSHAW  R EH1 D SH AO2
 REDSKIN  R EH1 D S K IH2 N
