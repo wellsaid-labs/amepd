@@ -94829,14 +94829,18 @@ RECORDS(noun)  R EH1 K AXR D Z
 RECORDS(verb)  R IH0 K AO1 R D Z
 RECORE  R EH0 K AO1 R IY0
 RECOTON  R IH0 K AO1 T IH0 N
-RECOUNT  R IH0 K AW1 N T
-RECOUNT(2)  R IY2 K AW1 N T
-RECOUNTED  R IH0 K AW1 N T IH0 D
-RECOUNTED(2)  R IY2 K AW1 N T IH0 D
-RECOUNTING  R IH0 K AW1 N T IH0 NG
-RECOUNTING(2)  R IY2 K AW1 N T IH0 NG
-RECOUNTS  R IY2 K AW1 N T S
-RECOUNTS(2)  R IH0 K AW1 N T S
+RECOUNT(noun)  R IH0 K AW1 N T #@@{ "context": ["retell", "narration", "rehearse"] }@@
+RECOUNT(verb)  R IH0 K AW1 N T #@@{ "context": ["retell", "narration", "rehearse"] }@@
+RECOUNT(noun)  R IY2 K AW1 N T #@@{ "root": "COUNT" }@@
+RECOUNT(verb)  R IY2 K AW1 N T #@@{ "root": "COUNT" }@@
+RECOUNTED(verb)  R IH0 K AW1 N T IH0 D #@@{ "context": ["retell", "narration", "rehearse"] }@@
+RECOUNTED(verb)  R IY2 K AW1 N T IH0 D #@@{ "root": "COUNT" }@@
+RECOUNTING(verb)  R IH0 K AW1 N T IH0 D #@@{ "context": ["retell", "narration", "rehearse"] }@@
+RECOUNTING(verb)  R IY2 K AW1 N T IH0 D #@@{ "root": "COUNT" }@@
+RECOUNTS(noun)  R IY2 K AW1 N T S #@@{ "root": "COUNT" }@@
+RECOUNTS(verb)  R IY2 K AW1 N T S #@@{ "root": "COUNT" }@@
+RECOUNTS(noun)  R IH0 K AW1 N T S #@@{ "context": ["retell", "narration", "rehearse"] }@@
+RECOUNTS(verb)  R IH0 K AW1 N T S #@@{ "context": ["retell", "narration", "rehearse"] }@@
 RECOUP  R IH0 K UW1 P
 RECOUPED  R IH0 K UW1 P T
 RECOUPING  R IH0 K UW1 P IH0 NG
