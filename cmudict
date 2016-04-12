@@ -104315,9 +104315,13 @@ SEWARD  S UW1 AXR D
 SEWARD'S  S UW1 AXR D Z
 SEWED  S OW1 D
 SEWELL  S UW1 IH0 L
-SEWER  S UW1 AXR
+SEWER(noun)  S UW1 AXR #@@{ "context": ["pipe", "inanimate"] }@@
+SEWER(verb)  S UW1 AXR #@@{ "context": ["pipe", "inanimate"] }@@
+SEWER(noun)  S OW1 AXR #@@{ "context": "person", "root": "SEW" }@@
 SEWERAGE  S UW1 AXR IH0 JH
-SEWERS  S UW1 AXR Z
+SEWERS(noun)  S UW1 AXR Z #@@{ "context": ["pipe", "inanimate"] }@@
+SEWERS(verb)  S UW1 AXR Z #@@{ "context": ["pipe", "inanimate"] }@@
+SEWERS(noun)  S OW1 AXR Z #@@{ "context": "person", "root": "SEW" }@@
 SEWING  S OW1 IH0 NG
 SEWN  S OW1 N
 SEX  S EH1 K S
