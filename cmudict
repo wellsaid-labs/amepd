@@ -100506,10 +100506,12 @@ SAKAL  S EY1 K AX L
 SAKAMOTO  S AA0 K AA0 M OW1 T OW0
 SAKATA  S AA0 K AA1 T AX
 SAKAU  S AA0 K AA1 UW0
-SAKE  S EY1 K
+SAKE(noun)  S EY1 K
+SAKE(noun)  S AA1 K IY0 #@@{ "lang": "jp", "context": "wine" }@@
 SAKE'S  S EY1 K S
 SAKER  S EY1 K AXR
-SAKES  S EY1 K S
+SAKES(noun)  S EY1 K S
+SAKES(noun)  S AA1 K IY0 Z #@@{ "lang": "jp", "context": "wine" }@@
 SAKHALIN  S AE1 K HH AX L IH0 N
 SAKHAROV  S AA1 K AXR AA0 V
 SAKI  S AA1 K IY0
