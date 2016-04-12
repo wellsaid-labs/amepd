@@ -107138,8 +107138,12 @@ SLOTTING  S L AA1 T IH0 NG
 SLOUCH  S L AW1 CH
 SLOUCHES  S L AW1 CH IH0 Z
 SLOUCHING  S L AW1 CH IH0 NG
-SLOUGH  S L AH1 F
-SLOUGHS  S L AH1 F S
+SLOUGH(noun)  S L AH1 F #@@{ "context": "skin" }@@
+SLOUGH(verb)  S L AH1 F #@@{ "context": ["skin", "discard"] }@@
+SLOUGH(noun)  S L AW1 #@@{ "context": ["town", "marsh", "swamp", "pond", "lake", "river"] }@@
+SLOUGHS(noun)  S L AH1 F S #@@{ "context": "skin" }@@
+SLOUGHS(verb)  S L AH1 F S #@@{ "context": ["skin", "discard"] }@@
+SLOUGHS(noun)  S L AW1 Z #@@{ "context": ["marsh", "swamp", "pond", "lake", "river"] }@@
 SLOVACEK  S L AA1 V AX CH EH0 K
 SLOVAK  S L OW1 V AE0 K
 SLOVAK(2)  S L OW1 V AA0 K
