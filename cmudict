@@ -109161,10 +109161,18 @@ SPONSORSHIPS  S P AA1 N S AXR SH IH2 P S
 SPONTANEITY  S P AA2 N T AX N IY1 AX T IY0
 SPONTANEOUS  S P AA0 N T EY1 N IY0 AX S
 SPONTANEOUSLY  S P AA0 N T EY1 N IY0 AX S L IY0
-SPOOF  S P UW1 F
-SPOOFED  S P UW1 F T
-SPOOFING  S P UW1 F IH0 NG
-SPOOFS  S P UW1 F S
+SPOOF(noun)  S P UW1 F #@@{ "context": ["hoax", "parody", "satire", "game"] }@@
+SPOOF(verb)  S P UW1 F #@@{ "context": ["hoax", "parody", "satire", "game"] }@@
+SPOOF(noun)  S P UH1 F #@@{ "lang": ["en-AU", "en-NZ"], "context": "semen" }@@
+SPOOF(verb)  S P UH1 F #@@{ "lang": ["en-AU", "en-NZ"], "context": "ejaculate" }@@
+SPOOFED(verb)  S P UW1 F T #@@{ "context": ["hoax", "parody", "satire", "game"] }@@
+SPOOFED(verb)  S P UH1 F T #@@{ "lang": ["en-AU", "en-NZ"], "context": "ejaculate" }@@
+SPOOFING(verb)  S P UW1 F IH0 NG #@@{ "context": ["hoax", "parody", "satire", "game"] }@@
+SPOOFING(verb)  S P UH1 F IH0 NG #@@{ "lang": ["en-AU", "en-NZ"], "context": "ejaculate" }@@
+SPOOFS(noun)  S P UW1 F S #@@{ "context": ["hoax", "parody", "satire", "game"] }@@
+SPOOFS(verb)  S P UW1 F S #@@{ "context": ["hoax", "parody", "satire", "game"] }@@
+SPOOFS(noun)  S P UH1 F S #@@{ "lang": ["en-AU", "en-NZ"], "context": "semen" }@@
+SPOOFS(verb)  S P UH1 F S #@@{ "lang": ["en-AU", "en-NZ"], "context": "ejaculate" }@@
 SPOOK  S P UW1 K
 SPOOKED  S P UW1 K T
 SPOOKS  S P UW1 K S
