@@ -14,6 +14,7 @@ Using John Wells' lexical sets, it has the following mergers:
 Additionally, the accent has the following mergers:
 
  *  HURRY-FURRY
+ *  MERRY-MARRY-MARY
 
 ## License
 
