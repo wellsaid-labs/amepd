@@ -13,6 +13,7 @@
 ;;;@@ metadata=@s:context @@ How the word is used in a sentence. Used to disambiguate pronunciations.
 ;;;@@ metadata=@s:expanded @@ The expanded text of the abbreviation/initialism.
 ;;;@@ metadata=@s:lang @@ The BCP 47 (RFC 5646) language tag for the entry.
+;;;@@ metadata=@s:misspelling @@ The word this word is a misspelling of.
 ;;;@@ metadata=@s:root @@ The root word which this word or pronunciation is derived.
 ;;;
 A(det@uns)  AX
@@ -115815,7 +115816,11 @@ THORTON'S  TH AO1 R T AX N Z
 THORUP  TH AO1 R AX P
 THORVALD  TH AO1 R V AA1 L D
 THOSE  DH OW1 Z
-THOU  DH AW1
+THOU(pron)  DH AW1
+THOU(verb)  DH AW1
+THOU(noun)  TH AW1 #@@{ "expanded": "THOUSAND" }@@
+THOU(adv)  DH OW1 #@@{ "misspelling": "THOUGH" }@@
+THOU(conj)  DH OW1 #@@{ "misspelling": "THOUGH" }@@
 THOUGH  DH OW1
 THOUGHT  TH AO1 T
 THOUGHTFUL  TH AO1 T F AX L

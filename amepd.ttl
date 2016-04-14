@@ -27,6 +27,7 @@ amepd: a skos:ConceptScheme ;
 	skos:hasTopConcept amepd:noun ;
 	skos:hasTopConcept amepd:num ;
 	skos:hasTopConcept amepd:prep ;
+	skos:hasTopConcept amepd:pron ;
 	skos:hasTopConcept amepd:verb ;
 	skos:hasTopConcept amepd:verb_past ;
 	skos:hasTopConcept amepd:2 ;
@@ -92,6 +93,12 @@ amepd:prep a skos:Concept ;
 	skos:prefLabel "preposition"@en ;
 	skos:notation "prep" ;
 	skos:exactMatch pos:preposition ;
+	skos:inScheme amepd: .
+
+amepd:pron a skos:Concept ;
+	skos:prefLabel "pronoun"@en ;
+	skos:notation "pron" ;
+	skos:exactMatch pos:pronoun ;
 	skos:inScheme amepd: .
 
 amepd:verb a skos:Concept ;
