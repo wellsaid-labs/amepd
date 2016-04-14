@@ -19,9 +19,7 @@ amepd: a skos:ConceptScheme ;
 	skos:notation "amepd" ;
 	skos:hasTopConcept amepd:adj ;
 	skos:hasTopConcept amepd:adv ;
-	skos:hasTopConcept amepd:det_prev ;
-	skos:hasTopConcept amepd:det_str ;
-	skos:hasTopConcept amepd:det_uns ;
+	skos:hasTopConcept amepd:det ;
 	skos:hasTopConcept amepd:conj ;
 	skos:hasTopConcept amepd:intj ;
 	skos:hasTopConcept amepd:noun ;
@@ -45,23 +43,10 @@ amepd:adv a skos:Concept ;
 	skos:exactMatch pos:adverb ;
 	skos:inScheme amepd: .
 
-amepd:det_prev a skos:Concept ;
-	skos:prefLabel "prevocalic determiner"@en ;
-	skos:notation "det@prev" ;
-	skos:scopeNote "The next word starts with a vowel."@en ;
-	skos:broadMatch pos:determiner ;
-	skos:inScheme amepd: .
-
-amepd:det_str a skos:Concept ;
-	skos:prefLabel "stressed determiner"@en ;
-	skos:notation "det@str" ;
-	skos:broadMatch pos:determiner ;
-	skos:inScheme amepd: .
-
-amepd:det_uns a skos:Concept ;
-	skos:prefLabel "unstressed determiner"@en ;
-	skos:notation "det@uns" ;
-	skos:broadMatch pos:determiner ;
+amepd:det a skos:Concept ;
+	skos:prefLabel "determiner"@en ;
+	skos:notation "det" ;
+	skos:exactMatch pos:determiner ;
 	skos:inScheme amepd: .
 
 amepd:conj a skos:Concept ;

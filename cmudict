@@ -16,8 +16,8 @@
 ;;;@@ metadata=@s:misspelling @@ The word this word is a misspelling of.
 ;;;@@ metadata=@s:root @@ The root word which this word or pronunciation is derived.
 ;;;
-A(det@uns)  AX
-A(det@str)  EY1
+A(det)  AX #@@{ "context": "unstressed" }@@
+A(det)  EY1 #@@{ "context": "stressed" }@@
 A(noun)  EY1
 A'S  EY1 Z
 AABERG  AA1 B AXR G
@@ -3690,8 +3690,8 @@ AMYLOID  AE1 M IH0 L OY2 D
 AMYOTROPHIC  AE2 M AY0 AX T R OW1 F IH0 K
 AMYOTROPHIC(2)  AE2 M IY0 AX T R OW1 F IH0 K
 AMYX  AE1 M IH0 K S
-AN(det@uns)  AX N
-AN(det@str)  AE1 N
+AN(det)  AX N #@@{ "context": "unstressed" }@@
+AN(det)  AE1 N #@@{ "context": "stressed" }@@
 AN(conj)  AE1 N
 ANA  AA1 N AX
 ANA(2)  AE1 N AX
@@ -115388,9 +115388,9 @@ THAYER  TH EY1 AXR
 THAYER'S  TH EY1 AXR Z
 THAYERS  TH EY1 AXR Z
 THAYNE  TH EY1 N
-THE(det@prev)  DH IY1
-THE(det@str)  DH IY1
-THE(det@uns)  DH AX
+THE(det)  DH IY1 #@@{ "context": "prevocalic" }@@
+THE(det)  DH IY1 #@@{ "context": "stressed" }@@
+THE(det)  DH AX #@@{ "context": "unstressed" }@@
 THEA  TH IY1 AX
 THEALL  TH IY1 L
 THEANO  TH IY1 N OW0
