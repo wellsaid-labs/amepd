@@ -119978,13 +119978,20 @@ UNION  Y UW1 N Y AX N
 UNION'S  Y UW1 N Y AX N Z
 UNIONDALE  Y UW1 N Y AX N D EY2 L
 UNIONFED  Y UW1 N Y AX N F EH2 D
+UNIONISE  Y UW1 N Y AX N AY2 Z #@@{ "lang": ["en-GB", "en-IE", "en-AU", "en-NZ"], "root": "UNION" }@@
+UNIONISED(verb)  Y UW1 N Y AX N AY2 Z D #@@{ "lang": ["en-GB", "en-IE", "en-AU", "en-NZ"], "root": "UNION" }@@
+UNIONISED(adj)  Y UW1 N Y AX N AY2 Z D #@@{ "lang": ["en-GB", "en-IE", "en-AU", "en-NZ"], "root": "UNION" }@@
+UNIONISED(adj)  AH0 N AY1 AX N AY2 Z D #@@{ "lang": ["en-GB", "en-IE", "en-AU", "en-NZ"], "root": "ION" }@@
+UNIONISING  Y UW1 N Y AX N AY2 Z IH0 NG #@@{ "lang": ["en-GB", "en-IE", "en-AU", "en-NZ"], "root": "UNION" }@@
 UNIONISM  Y UW1 N Y AX N IH2 Z AX M
 UNIONIST  Y UW1 N Y AX N IH0 S T
 UNIONISTS  Y UW1 N Y AX N IH0 S T S
 UNIONIZATION  Y UW2 N Y AX N AX Z EY1 SH AX N
-UNIONIZE  Y UW1 N Y AX N AY2 Z
-UNIONIZED  Y UW1 N Y AX N AY2 Z D
-UNIONIZING  Y UW1 N Y AX N AY2 Z IH0 NG
+UNIONIZE  Y UW1 N Y AX N AY2 Z #@@{ "lang": ["en-US", "en-CA", "en-GB-oxendict"], "root": "UNION" }@@
+UNIONIZED(verb)  Y UW1 N Y AX N AY2 Z D #@@{ "lang": ["en-US", "en-CA", "en-GB-oxendict"], "root": "UNION" }@@
+UNIONIZED(adj)  Y UW1 N Y AX N AY2 Z D #@@{ "lang": ["en-US", "en-CA", "en-GB-oxendict"], "root": "UNION" }@@
+UNIONIZED(adj)  AH0 N AY1 AX N AY2 Z D #@@{ "lang": ["en-US", "en-CA", "en-GB-oxendict"], "root": "ION" }@@
+UNIONIZING  Y UW1 N Y AX N AY2 Z IH0 NG #@@{ "lang": ["en-US", "en-CA", "en-GB-oxendict"], "root": "UNION" }@@
 UNIONS  Y UW1 N Y AX N Z
 UNIQUE  Y UW0 N IY1 K
 UNIQUELY  Y UW0 N IY1 K L IY0
