@@ -114380,7 +114380,8 @@ TAXCUT  T AE1 K S K AH2 T
 TAXED  T AE1 K S T
 TAXER  T AE1 K S AXR
 TAXERS  T AE1 K S AXR Z
-TAXES  T AE1 K S IH0 Z
+TAXES(noun)  T AE1 K S IH0 Z #@@{ "root": "TAX" }@@
+TAXES(noun)  T AE1 K S IY0 Z #@@{ "root": "TAXIS", "context": ["biology", "medicine", "arrangement", "order"] }@@
 TAXI  T AE1 K S IY0
 TAXI'S  T AE1 K S IY0 Z
 TAXICAB  T AE1 K S IY0 K AE2 B
@@ -114391,7 +114392,8 @@ TAXIDERMY  T AE1 K S AX D ER2 M IY0
 TAXIED  T AE1 K S IY0 D
 TAXIING  T AE1 K S IY0 IH0 NG
 TAXING  T AE1 K S IH0 NG
-TAXIS  T AE1 K S IY0 Z
+TAXIS(noun)  T AE1 K S IY0 Z #@@{ "root": "TAXI" }@@
+TAXIS(noun)  T AE1 K S IH0 S #@@{ "context": ["biology", "medicine", "arrangement", "order"] }@@
 TAXIWAY  T AE1 K S IY0 W EY0
 TAXOL  T AE1 K S AA2 L
 TAXPAYER  T AE1 K S P EY2 AXR
