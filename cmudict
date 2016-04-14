@@ -114459,16 +114459,20 @@ TEAMWORK  T IY1 M W ER2 K
 TEANECK  T IY1 N EH2 K
 TEANEY  T IY1 N IY0
 TEAPOT  T IY1 P AA2 T
-TEAR  T EH1 R
-TEAR(2)  T IH1 R
+TEAR(noun)  T EH1 R #@@{ "context": ["hole", "object"] }@@
+TEAR(verb)  T EH1 R #@@{ "context": ["rip", "break", "rend", "speed"] }@@
+TEAR(noun)  T IH1 R #@@{ "context": ["crying", "person"] }@@
+TEAR(verb)  T IH1 R #@@{ "context": ["crying", "person"] }@@
 TEARE  T IY1 R
 TEARFUL  T IH1 R F AX L
 TEARFULLY  T IH1 R F AX L IY0
-TEARING  T EH1 R IH0 NG
-TEARING(2)  T IH1 R IH0 NG
+TEARING(verb)  T EH1 R IH0 NG #@@{ "context": ["rip", "break", "rend", "speed"] }@@
+TEARING(verb)  T IH1 R IH0 NG #@@{ "context": ["crying", "person"] }@@
 TEARLE  T AO1 R AX L
-TEARS  T EH1 R Z
-TEARS(2)  T IH1 R Z
+TEARS(noun)  T EH1 R Z #@@{ "context": ["hole", "object"] }@@
+TEARS(verb)  T EH1 R Z #@@{ "context": ["rip", "break", "rend", "speed"] }@@
+TEARS(noun)  T IH1 R Z #@@{ "context": ["crying", "person"] }@@
+TEARS(verb)  T IH1 R Z #@@{ "context": ["crying", "person"] }@@
 TEARY  T IH1 R IY0
 TEAS  T IY1 Z
 TEASDALE  T IY1 Z D EY2 L
