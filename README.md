@@ -11,6 +11,10 @@ Using John Wells' lexical sets, it has the following mergers:
  *  NORTH-FORCE
  *  FLEECE-HAPPY
 
+Additionally, the accent has the following mergers:
+
+ *  HURRY-FURRY
+
 ## License
 
 Copyright (C) 1993-2008 Carnegie Mellon University. All rights reserved.  
