@@ -16,6 +16,9 @@ Additionally, the accent has the following mergers:
  *  HURRY-FURRY
  *  MERRY-MARRY-MARY
 
+The context tags are defined in the `cainteoir.ttl` file of the
+[pos-tags](https://github.com/rhdunn/pos-tags) project.
+
 ## License
 
 Copyright (C) 1993-2008 Carnegie Mellon University. All rights reserved.  

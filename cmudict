@@ -8,7 +8,7 @@
 ;;; unrestricted.  If you make use of or redistribute this material, we would
 ;;; appreciate acknowlegement of its origin.
 ;;;
-;;;@@ context-format=amepd.ttl @@
+;;;@@ context-format=cainteoir @@
 ;;;@@ metadata-format=json @@
 ;;;@@ metadata=@s:context @@ How the word is used in a sentence. Used to disambiguate pronunciations.
 ;;;@@ metadata=@s:expanded @@ The expanded text of the abbreviation/initialism.
