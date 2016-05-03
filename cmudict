@@ -10,14 +10,14 @@
 ;;;
 ;;;@@ context-format=cainteoir @@
 ;;;@@ metadata-format=json @@
-;;;@@ metadata=@s:context @@ How the word is used in a sentence. Used to disambiguate pronunciations.
+;;;@@ metadata=@s:usage @@ How the word is used in a sentence. Used to disambiguate pronunciations.
 ;;;@@ metadata=@s:expanded @@ The expanded text of the abbreviation/initialism.
 ;;;@@ metadata=@s:lang @@ The BCP 47 (RFC 5646) language tag for the entry.
 ;;;@@ metadata=@s:misspelling @@ The word this word is a misspelling of.
 ;;;@@ metadata=@s:root @@ The root word which this word or pronunciation is derived.
 ;;;
-A(det)  AX #@@{ "context": "unstressed" }@@
-A(det)  EY1 #@@{ "context": "stressed" }@@
+A(det)  AX #@@{ "usage": "unstressed" }@@
+A(det)  EY1 #@@{ "usage": "stressed" }@@
 A(noun)  EY1
 A'S  EY1 Z
 AABERG  AA1 B AXR G
@@ -3693,8 +3693,8 @@ AMYLOID  AE1 M IH0 L OY2 D
 AMYOTROPHIC  AE2 M AY0 AX T R OW1 F IH0 K
 AMYOTROPHIC(2)  AE2 M IY0 AX T R OW1 F IH0 K
 AMYX  AE1 M IH0 K S
-AN(det)  AX N #@@{ "context": "unstressed" }@@
-AN(det)  AE1 N #@@{ "context": "stressed" }@@
+AN(det)  AX N #@@{ "usage": "unstressed" }@@
+AN(det)  AE1 N #@@{ "usage": "stressed" }@@
 AN(conj)  AE1 N
 ANA  AA1 N AX
 ANA(2)  AE1 N AX
@@ -8575,16 +8575,16 @@ BASQUE  B AE1 S K
 BASQUES  B AE1 S K S
 BASQUEZ  B AA0 S K W EH1 Z
 BASRA  B AA1 S R AA0
-BASS(noun)  B EY1 S #@@{ "context": "sound" }@@
-BASS(adj)  B EY1 S #@@{ "context": "sound" }@@
-BASS(noun)  B AE1 S #@@{ "context": "fish" }@@
-BASS'S(noun)  B EY1 S IH0 Z #@@{ "context": "sound" }@@
-BASS'S(noun)  B AE1 S IH0 Z #@@{ "context": "fish" }@@
+BASS(noun)  B EY1 S #@@{ "usage": "sound" }@@
+BASS(adj)  B EY1 S #@@{ "usage": "sound" }@@
+BASS(noun)  B AE1 S #@@{ "usage": "fish" }@@
+BASS'S(noun)  B EY1 S IH0 Z #@@{ "usage": "sound" }@@
+BASS'S(noun)  B AE1 S IH0 Z #@@{ "usage": "fish" }@@
 BASSA  B AE1 S AX
 BASSAM  B AE1 S AX M
 BASSE  B AE1 S
-BASSES(noun)  B EY1 S IH0 Z #@@{ "context": "sound" }@@
-BASSES(noun)  B AE1 S IH0 Z #@@{ "context": "fish" }@@
+BASSES(noun)  B EY1 S IH0 Z #@@{ "usage": "sound" }@@
+BASSES(noun)  B AE1 S IH0 Z #@@{ "usage": "fish" }@@
 BASSET  B AE1 S IH0 T
 BASSETT  B AE1 S IH0 T
 BASSETTE  B AX S EH1 T
@@ -13415,8 +13415,8 @@ BOVINE  B OW1 V AY2 N
 BOVINO  B OW0 V IY1 N OW0
 BOW(noun)  B OW1
 BOW(verb)  B OW1
-BOW(noun)  B AW1 #@@{ "context": ["nautical", "bend", "debut"] }@@
-BOW(verb)  B AW1 #@@{ "context": ["bend", "debut"] }@@
+BOW(noun)  B AW1 #@@{ "usage": ["nautical", "bend", "debut"] }@@
+BOW(verb)  B AW1 #@@{ "usage": ["bend", "debut"] }@@
 BOWAR  B OW1 AXR
 BOWARD  B OW1 AXR D
 BOWATER  B AW1 AH2 T AXR
@@ -13431,7 +13431,7 @@ BOWDLE  B OW1 D AX L
 BOWDOIN  B OW0 D OY1 N
 BOWE  B OW1
 BOWED(verb)  B OW1 D
-BOWED(verb)  B AW1 D #@@{ "context": ["bend", "debut"] }@@
+BOWED(verb)  B AW1 D #@@{ "usage": ["bend", "debut"] }@@
 BOWEL  B AW1 AX L
 BOWELL  B AA1 W EH0 L
 BOWELS  B AW1 AX L Z
@@ -13450,7 +13450,7 @@ BOWES  B OW1 Z
 BOWICK  B OW1 IH0 K
 BOWIE  B OW1 IY0
 BOWING(verb)  B OW1 IH0 NG
-BOWING(verb)  B AW1 IH0 NG #@@{ "context": ["bend", "debut"] }@@
+BOWING(verb)  B AW1 IH0 NG #@@{ "usage": ["bend", "debut"] }@@
 BOWKER  B OW1 K AXR
 BOWL  B OW1 L
 BOWLAND  B OW1 L AX N D
@@ -13468,12 +13468,12 @@ BOWLING  B OW1 L IH0 NG
 BOWLING'S  B OW1 L IH0 NG Z
 BOWLS  B OW1 L Z
 BOWLUS  B OW1 L AX S
-BOWMAN(noun)  B OW1 M AX N #@@{ "context": "archery" }@@
-BOWMAN(noun)  B AW1 M AX N #@@{ "context": "nautical" }@@
-BOWMAN'S(noun)  B OW1 M AX N Z #@@{ "context": "archery" }@@
-BOWMAN'S(noun)  B AW1 M AX N Z #@@{ "context": "nautical" }@@
-BOWMEN(noun)  B OW1 M AX N #@@{ "context": "archery" }@@
-BOWMEN(noun)  B AW1 M AX N #@@{ "context": "nautical" }@@
+BOWMAN(noun)  B OW1 M AX N #@@{ "usage": "archery" }@@
+BOWMAN(noun)  B AW1 M AX N #@@{ "usage": "nautical" }@@
+BOWMAN'S(noun)  B OW1 M AX N Z #@@{ "usage": "archery" }@@
+BOWMAN'S(noun)  B AW1 M AX N Z #@@{ "usage": "nautical" }@@
+BOWMEN(noun)  B OW1 M AX N #@@{ "usage": "archery" }@@
+BOWMEN(noun)  B AW1 M AX N #@@{ "usage": "nautical" }@@
 BOWMER  B OW1 M AXR
 BOWN  B OW1 N
 BOWNDS  B OW1 N D Z
@@ -13483,8 +13483,8 @@ BOWRON  B OW1 R AX N
 BOWRON(2)  B OW1 R AA2 N
 BOWS(noun)  B OW1 Z
 BOWS(verb)  B OW1 Z
-BOWS(noun)  B AW1 Z #@@{ "context": ["nautical", "bend", "debut"] }@@
-BOWS(verb)  B AW1 Z #@@{ "context": ["nautical", "bend", "debut"] }@@
+BOWS(noun)  B AW1 Z #@@{ "usage": ["nautical", "bend", "debut"] }@@
+BOWS(verb)  B AW1 Z #@@{ "usage": ["nautical", "bend", "debut"] }@@
 BOWSE  B OW1 S
 BOWSED  B AW1 Z D
 BOWSER  B OW1 Z AXR
@@ -15386,16 +15386,16 @@ BUFFERED  B AH1 F AXR D
 BUFFERIN  B AH1 F AXR IH0 N
 BUFFERING  B AH1 F AXR IH0 NG
 BUFFERS  B AH1 F AXR Z
-BUFFET(noun)  B AH1 F IH0 T #@@{ "context": ["blow", "collision", "cuff"] }@@
-BUFFET(noun)  B AH1 F EY0 #@@{ "context": "food" }@@
-BUFFET(verb)  B AH1 F IH0 T #@@{ "context": ["blow", "collision", "cuff"] }@@
-BUFFETED(verb)  B AH1 F IH0 T IH0 D #@@{ "context": ["blow", "collision", "cuff"] }@@
-BUFFETED(verb)  B AH1 F EY0 IH0 D #@@{ "context": "food" }@@
-BUFFETING(verb)  B AH1 F IH0 T IH0 NG #@@{ "context": ["blow", "collision", "cuff"] }@@
-BUFFETING(verb)  B AH1 F EY0 IH0 NG #@@{ "context": "food" }@@
-BUFFETS(noun)  B AH1 F IH0 T S #@@{ "context": ["blow", "collision", "cuff"] }@@
-BUFFETS(noun)  B AH1 F EY0 Z #@@{ "context": "food" }@@
-BUFFETS(verb)  B AH1 F IH0 T S #@@{ "context": ["blow", "collision", "cuff"] }@@
+BUFFET(noun)  B AH1 F IH0 T #@@{ "usage": ["blow", "collision", "cuff"] }@@
+BUFFET(noun)  B AH1 F EY0 #@@{ "usage": "food" }@@
+BUFFET(verb)  B AH1 F IH0 T #@@{ "usage": ["blow", "collision", "cuff"] }@@
+BUFFETED(verb)  B AH1 F IH0 T IH0 D #@@{ "usage": ["blow", "collision", "cuff"] }@@
+BUFFETED(verb)  B AH1 F EY0 IH0 D #@@{ "usage": "food" }@@
+BUFFETING(verb)  B AH1 F IH0 T IH0 NG #@@{ "usage": ["blow", "collision", "cuff"] }@@
+BUFFETING(verb)  B AH1 F EY0 IH0 NG #@@{ "usage": "food" }@@
+BUFFETS(noun)  B AH1 F IH0 T S #@@{ "usage": ["blow", "collision", "cuff"] }@@
+BUFFETS(noun)  B AH1 F EY0 Z #@@{ "usage": "food" }@@
+BUFFETS(verb)  B AH1 F IH0 T S #@@{ "usage": ["blow", "collision", "cuff"] }@@
 BUFFETT  B AH1 F IH0 T
 BUFFETT'S  B AH1 F IH0 T S
 BUFFIN  B AH1 F IH0 N
@@ -18801,7 +18801,7 @@ CELSO  S EH1 L S OW0
 CELT  K EH1 L T
 CELTIC(noun)  K EH1 L T IH0 K
 CELTIC(adj)  K EH1 L T IH0 K
-CELTIC(noun)  S EH1 L T IH0 K #@@{ "context": "sport" }@@
+CELTIC(noun)  S EH1 L T IH0 K #@@{ "usage": "sport" }@@
 CELTICS  S EH1 L T IH0 K S
 CELTS  K EH1 L T S
 CEMENT  S IH0 M EH1 N T
@@ -19851,10 +19851,10 @@ CHEYENNES  SH AY0 AE1 N Z
 CHEYNE  CH EY1 N
 CHEYNEY  CH EY1 N IY0
 CHEZ  CH EH1 Z
-CHI(noun)  K AY1 #@@{ "lang": "el", "context": "mathematics" }@@ chi squared, etc.
-CHI(noun)  CH IY1 #@@{ "lang": "zh", "context": "energy" }@@ Tai Chi, etc.
-CHI'S(noun)  K AY1 Z #@@{ "lang": "el", "context": "mathematics" }@@ chi squared, etc.
-CHI'S(noun)  CH IY1 Z #@@{ "lang": "zh", "context": "energy" }@@ Tai Chi, etc.
+CHI(noun)  K AY1 #@@{ "lang": "el", "usage": "mathematics" }@@ chi squared, etc.
+CHI(noun)  CH IY1 #@@{ "lang": "zh", "usage": "energy" }@@ Tai Chi, etc.
+CHI'S(noun)  K AY1 Z #@@{ "lang": "el", "usage": "mathematics" }@@ chi squared, etc.
+CHI'S(noun)  CH IY1 Z #@@{ "lang": "zh", "usage": "energy" }@@ Tai Chi, etc.
 CHIA  CH IY1 AX
 CHIANESE  K IY0 AA0 N EY1 Z IY0
 CHIANG  CH AE1 NG
@@ -21331,7 +21331,7 @@ CLOS  K L AA1 S
 CLOSE(adj)  K L OW1 S
 CLOSE(verb)  K L OW1 Z
 CLOSE(noun)  K L OW1 Z
-CLOSE(noun)  K L OW1 S #@@{ "context": ["street", "alley", "architecture", "law"] }@@
+CLOSE(noun)  K L OW1 S #@@{ "usage": ["street", "alley", "architecture", "law"] }@@
 CLOSED  K L OW1 Z D
 CLOSEDOWN  K L OW1 Z D AW2 N
 CLOSEDOWNS  K L OW1 Z D AW2 N Z
@@ -22254,9 +22254,9 @@ COMBE  K OW1 M
 COMBED  K OW1 M D
 COMBEE  K AA1 M B IY2
 COMBER(noun)  K OW1 M AXR #@@{ "root": "COMB" }@@
-COMBER(noun)  K AA1 M B AXR #@@{ "context": "fish" }@@
+COMBER(noun)  K AA1 M B AXR #@@{ "usage": "fish" }@@
 COMBERS(noun)  K OW1 M AXR Z #@@{ "root": "COMB" }@@
-COMBERS(noun)  K AA1 M B AXR Z #@@{ "context": "fish" }@@
+COMBERS(noun)  K AA1 M B AXR Z #@@{ "usage": "fish" }@@
 COMBES  K OW1 M Z
 COMBEST  K OW1 M IH0 S T
 COMBINABILITY  K AX M B AY2 N AX B IH1 L AX T IY0
@@ -24972,10 +24972,10 @@ COVES  K OW1 V Z
 COVET  K AH1 V AX T
 COVETED  K AH1 V AX T IH0 D
 COVETS  K AH1 V AX T S
-COVEY(noun)  K AH1 V IY0 #@@{ "context": ["bird", "group"] }@@
-COVEY(noun)  K OW1 V IY0 #@@{ "context": "a man" }@@
-COVEYS(noun)  K AH1 V IY0 Z #@@{ "context": ["bird", "group"] }@@
-COVEYS(noun)  K OW1 V IY0 Z #@@{ "context": "a man" }@@
+COVEY(noun)  K AH1 V IY0 #@@{ "usage": ["bird", "group"] }@@
+COVEY(noun)  K OW1 V IY0 #@@{ "usage": "a man" }@@
+COVEYS(noun)  K AH1 V IY0 Z #@@{ "usage": ["bird", "group"] }@@
+COVEYS(noun)  K OW1 V IY0 Z #@@{ "usage": "a man" }@@
 COVIA  K OW1 V IY0 AX
 COVIELLO  K OW2 V IY0 EH1 L OW0
 COVILL  K AA1 V AX L
@@ -29570,19 +29570,19 @@ DESENSITIZED  D IH0 S EH1 N S AX T AY2 Z D
 DESENSITIZING  D IH0 S EH1 N S AX T AY2 Z IH0 NG
 DESERET  D EH2 S AXR EH1 T
 DESERET(2)  D EH2 Z AXR EY1
-DESERT(noun)  D EH1 Z AXR T #@@{ "context": "terrain" }@@
-DESERT(adj)  D EH1 Z AXR T #@@{ "context": "terrain" }@@
+DESERT(noun)  D EH1 Z AXR T #@@{ "usage": "terrain" }@@
+DESERT(adj)  D EH1 Z AXR T #@@{ "usage": "terrain" }@@
 DESERT(verb)  D IH0 Z ER1 T
-DESERT(noun)  D IH0 Z ER1 T #@@{ "context": ["punishment", "reward"] }@@
+DESERT(noun)  D IH0 Z ER1 T #@@{ "usage": ["punishment", "reward"] }@@
 DESERTED  D IH0 Z ER1 T IH0 D
 DESERTER  D IH0 Z ER1 T AXR
 DESERTERS  D IH0 Z ER1 T AXR Z
 DESERTING  D IH0 Z ER1 T IH0 NG
 DESERTION  D IH0 Z ER1 SH AX N
 DESERTIONS  D IH0 Z ER1 SH AX N Z
-DESERTS(noun)  D EH1 Z AXR T S #@@{ "context": "terrain" }@@
+DESERTS(noun)  D EH1 Z AXR T S #@@{ "usage": "terrain" }@@
 DESERTS(verb)  D IH0 Z ER1 T S
-DESERTS(noun)  D IH0 Z ER1 T S #@@{ "context": ["punishment", "reward"] }@@
+DESERTS(noun)  D IH0 Z ER1 T S #@@{ "usage": ["punishment", "reward"] }@@
 DESERVE  D IH0 Z ER1 V
 DESERVED  D IH0 Z ER1 V D
 DESERVEDLY  D IH0 Z ER1 V IH0 D L IY0
@@ -31159,19 +31159,19 @@ DISCORD  D IH1 S K AO0 R D
 DISCORDANT  D IH0 S K AO1 R D AX N T
 DISCOS  D IH1 S K OW0 Z
 DISCOTHEQUE  D IH1 S K OW0 T EH2 K
-DISCOUNT(noun)  D IH1 S K AW0 N T #@@{ "context": "money" }@@
-DISCOUNT(adj)  D IH1 S K AW0 N T #@@{ "context": "money" }@@
-DISCOUNT(verb)  D IH0 S K AW1 N T #@@{ "context": "ignore", "root": "COUNT" }@@
-DISCOUNT(verb)  D IH1 S K AW0 N T #@@{ "context": "money" }@@
+DISCOUNT(noun)  D IH1 S K AW0 N T #@@{ "usage": "money" }@@
+DISCOUNT(adj)  D IH1 S K AW0 N T #@@{ "usage": "money" }@@
+DISCOUNT(verb)  D IH0 S K AW1 N T #@@{ "usage": "ignore", "root": "COUNT" }@@
+DISCOUNT(verb)  D IH1 S K AW0 N T #@@{ "usage": "money" }@@
 DISCOUNTABLE  D IH1 S K AW2 N T AX B AX L
 DISCOUNTED  D IH1 S K AW2 N T IH0 D
 DISCOUNTER  D IH1 S K AW2 N T AXR
 DISCOUNTERS  D IH0 S K AW1 N T AXR Z
 DISCOUNTING  D IH1 S K AW2 N T IH0 NG
-DISCOUNTS(noun)  D IH1 S K AW0 N T S #@@{ "context": "money" }@@
-DISCOUNTS(adj)  D IH1 S K AW0 N T S #@@{ "context": "money" }@@
-DISCOUNTS(verb)  D IH0 S K AW1 N T S #@@{ "context": "ignore", "root": "COUNT" }@@
-DISCOUNTS(verb)  D IH1 S K AW0 N T S #@@{ "context": "money" }@@
+DISCOUNTS(noun)  D IH1 S K AW0 N T S #@@{ "usage": "money" }@@
+DISCOUNTS(adj)  D IH1 S K AW0 N T S #@@{ "usage": "money" }@@
+DISCOUNTS(verb)  D IH0 S K AW1 N T S #@@{ "usage": "ignore", "root": "COUNT" }@@
+DISCOUNTS(verb)  D IH1 S K AW0 N T S #@@{ "usage": "money" }@@
 DISCOURAGE  D IH0 S K ER1 IH0 JH
 DISCOURAGED  D IH0 S K ER1 IH0 JH D
 DISCOURAGEMENT  D IH0 S K ER1 IH0 JH M AX N T
@@ -31853,7 +31853,7 @@ DNASE(2)  D IY1 EH2 N EY2 Z
 DNIESTER  D AX N IY1 S T AXR
 DO(verb)  D UW1
 DO(noun)  D UW1
-DO(noun)  D OW1 #@@{ "context": "music" }@@
+DO(noun)  D OW1 #@@{ "usage": "music" }@@
 DO'S  D UW1 Z
 DOABLE  D UW1 AX B AX L
 DOAK  D OW1 K
@@ -32561,7 +32561,7 @@ DORWARD  D AO1 R W AXR D
 DORWART  D AO1 R W AO0 R T
 DORY  D AO1 R IY0
 DOS(noun)  D UW1 Z
-DOS(noun)  D OW1 Z #@@{ "context": "music" }@@
+DOS(noun)  D OW1 Z #@@{ "usage": "music" }@@
 DOS(num)  D AO1 S #@@{ "lang": "es" }@@
 DOSAGE  D OW1 S IH0 JH
 DOSAGES  D OW1 S IH0 JH IH0 Z
@@ -32960,10 +32960,10 @@ DRAWBRIDGE  D R AO1 B R IH2 JH
 DRAWDOWN  D R AO1 D AW2 N
 DRAWDOWNS  D R AO1 D AW2 N Z
 DRAWDY  D R AO1 D IY0
-DRAWER(noun)  D R AO1 R #@@{ "context": "box" }@@
-DRAWER(noun)  D R AO1 R AXR #@@{ "context": "person", "root": "DRAW" }@@
-DRAWERS(noun)  D R AO1 R Z #@@{ "context": "box" }@@
-DRAWERS(noun)  D R AO1 R AXR Z #@@{ "context": "person", "root": "DRAW" }@@
+DRAWER(noun)  D R AO1 R #@@{ "usage": "box" }@@
+DRAWER(noun)  D R AO1 R AXR #@@{ "usage": "person", "root": "DRAW" }@@
+DRAWERS(noun)  D R AO1 R Z #@@{ "usage": "box" }@@
+DRAWERS(noun)  D R AO1 R AXR Z #@@{ "usage": "person", "root": "DRAW" }@@
 DRAWING  D R AO1 IH0 NG
 DRAWINGS  D R AO1 IH0 NG Z
 DRAWL  D R AO1 L
@@ -47608,7 +47608,7 @@ GRAVANO  G R AX V AA1 N OW0
 GRAVANO(2)  G R AX V AE1 N OW0
 GRAVATT  G R AE1 V AX T
 GRAVE(noun)  G R EY1 V
-GRAVE(noun)  G R AA1 V #@@{ "lang": "fr", "context": ["wine", "place"] }@@ "De Grave"@fr (Wine)
+GRAVE(noun)  G R AA1 V #@@{ "lang": "fr", "usage": ["wine", "place"] }@@ "De Grave"@fr (Wine)
 GRAVEL  G R AE1 V AX L
 GRAVELINE  G R EY1 V L AY2 N
 GRAVELL  G R AE1 V AX L
@@ -65898,7 +65898,7 @@ LEACHING  L IY1 CH IH0 NG
 LEACHMAN  L IY1 CH M AX N
 LEACHMAN'S  L IY1 CH M AX N Z
 LEACOCK  L IY1 K AA2 K
-LEAD(noun)  L EH1 D #@@{ "context": "metal" }@@
+LEAD(noun)  L EH1 D #@@{ "usage": "metal" }@@
 LEAD(noun)  L IY1 D #@@{ "root": "LEAD(verb)" }@@ e.g. "a dog lead"
 LEAD(verb)  L IY1 D
 LEADBELLY  L EH1 D B EH0 L IY0
@@ -65915,7 +65915,7 @@ LEADERSHIPS  L IY1 D AXR SH IH2 P S
 LEADING  L IY1 D IH0 NG
 LEADINGHAM  L IY1 D IH0 NG HH AE2 M
 LEADOFF  L IY1 D AO2 F
-LEADS(noun)  L EH1 D Z #@@{ "context": "metal" }@@
+LEADS(noun)  L EH1 D Z #@@{ "usage": "metal" }@@
 LEADS(noun)  L IY1 D Z #@@{ "root": "LEAD(verb)" }@@ e.g. "a dog lead"
 LEADS(verb)  L IY1 D Z
 LEADVILLE  L EH1 D V IH2 L
@@ -66098,7 +66098,7 @@ LECATES  L IH0 K EY1 T S
 LECCESE  L EH0 CH EY1 Z IY0
 LECH(noun)  L EH1 CH
 LECH(verb)  L EH1 CH
-LECH(noun)  L EH1 K #@@{ "lang": "cy", "context": ["slate", "slab"] }@@
+LECH(noun)  L EH1 K #@@{ "lang": "cy", "usage": ["slate", "slab"] }@@
 LECHER  L EH1 CH AXR
 LECHEROUS  L EH1 CH AXR AX S
 LECHES  L EH1 CH IH0 Z
@@ -66106,7 +66106,7 @@ LECHLER  L EH1 K L AXR
 LECHMAN  L EH1 K M AX N
 LECHMERE  L EH1 K M IH2 R
 LECHNER  L EH1 K N AXR
-LECHS  L EH1 K S #@@{ "lang": "cy", "context": ["slate", "slab"] }@@
+LECHS  L EH1 K S #@@{ "lang": "cy", "usage": ["slate", "slab"] }@@
 LECHTENBERG  L EH1 K T AX N B AXR G
 LECHTERS  L EH1 K T AXR Z
 LECHUGA  L EH1 CH UW0 G AX
@@ -70099,8 +70099,8 @@ MAGAZINES  M AE1 G AX Z IY2 N Z
 MAGBY  M AE1 G B IY0
 MAGDA  M AE1 G D AX
 MAGDALA  M AA0 G D AA1 L AX
-MAGDALEN(noun)  M AE1 G D AX L IH0 N #@@{ "context": "name/surname" }@@ Myra Magdalen
-MAGDALEN(noun)  M AO1 D L IH0 N #@@{ "context": "college" }@@ Magdalen College, Oxford
+MAGDALEN(noun)  M AE1 G D AX L IH0 N #@@{ "usage": "name/surname" }@@ Myra Magdalen
+MAGDALEN(noun)  M AO1 D L IH0 N #@@{ "usage": "college" }@@ Magdalen College, Oxford
 MAGDALENA  M AE2 G D AX L IY1 N AX
 MAGDALENE  M AE1 G D AX L IY2 N
 MAGDALENO  M AA0 G D AA0 L EY1 N OW0
@@ -70838,7 +70838,7 @@ MANELLA  M AX N EH1 L AX
 MANER  M EY1 N AXR
 MANERS  M EY1 N AXR Z
 MANES(noun)  M EY1 N Z
-MANES(noun)  M AA1 N EY0 Z #@@{ "lang": "la", "context": ["spirit/dead", "capitalized"] }@@
+MANES(noun)  M AA1 N EY0 Z #@@{ "lang": "la", "usage": ["spirit/dead", "capitalized"] }@@
 MANESS  M AA1 N IH0 S
 MANET  M AE0 N EY1
 MANET(2)  M AA0 N EY1
@@ -71312,7 +71312,7 @@ MARDIS  M AA1 R D IH0 S
 MARDIS(2)  M AA1 R D IY0 S
 MARDON  M AA1 R D AX N
 MARE(noun)  M EH1 R
-MARE(noun)  M AA1 R EY0 #@@{ "lang": "la", "context": ["sea", "planets"] }@@
+MARE(noun)  M AA1 R EY0 #@@{ "lang": "la", "usage": ["sea", "planets"] }@@
 MARE'S  M EH1 R Z
 MAREADY  M AXR EH1 D IY0
 MAREAN  M AA0 R IY1 N
@@ -71387,8 +71387,8 @@ MARGUS  M AA1 R G AX S
 MARGY  M AA1 R JH IY0
 MARHEFKA  M AXR HH EH1 F K AX
 MARI  M AA1 R IY0
-MARIA(noun)  M AXR IY1 AX #@@{ "context": "name/female" }@@ Maria Elena Bello
-MARIA(noun)  M AA1 R IY0 AX #@@{ "lang": "la", "context": ["sea", "planets"] }@@
+MARIA(noun)  M AXR IY1 AX #@@{ "usage": "name/female" }@@ Maria Elena Bello
+MARIA(noun)  M AA1 R IY0 AX #@@{ "lang": "la", "usage": ["sea", "planets"] }@@
 MARIA'S  M AXR IY1 AX Z
 MARIACHI  M AA2 R IY0 AA1 CH IY0
 MARIAH  M AXR AY1 AX
@@ -79143,10 +79143,10 @@ NAMIS  N AE1 M IH0 S
 NAMPHY  N AE1 M F IY0
 NAN  N AE1 N
 NAN'S  N AE1 N Z
-NANA(noun)  N AE1 N AX #@@{ "context": "grandmother" }@@
-NANA(noun)  N AA1 N AX #@@{ "context": ["banana", "fool"] }@@
-NANAS(noun)  N AE1 N AX Z #@@{ "context": "grandmother" }@@
-NANAS(noun)  N AA1 N AX Z #@@{ "context": ["banana", "fool"] }@@
+NANA(noun)  N AE1 N AX #@@{ "usage": "grandmother" }@@
+NANA(noun)  N AA1 N AX #@@{ "usage": ["banana", "fool"] }@@
+NANAS(noun)  N AE1 N AX Z #@@{ "usage": "grandmother" }@@
+NANAS(noun)  N AA1 N AX Z #@@{ "usage": ["banana", "fool"] }@@
 NANCARROW  N AE2 NG K EH1 R OW0
 NANCE  N AE1 N S
 NANCHANG  N AE1 N CH AE1 NG
@@ -80399,7 +80399,7 @@ NICE(verb)  N AY1 S
 NICE(adj)  N AY1 S
 NICE(adv)  N AY1 S
 NICE(intj)  N AY1 S
-NICE(noun)  N IY1 S #@@{ "context": "name/place" }@@
+NICE(noun)  N IY1 S #@@{ "usage": "name/place" }@@
 NICELY  N AY1 S L IY0
 NICEN  N AY1 S AX N
 NICENESS  N AY1 S N IH0 S
@@ -86002,7 +86002,7 @@ PASTULA  P AA0 S T UW1 L AX
 PASTURE  P AE1 S CH AXR
 PASTURES  P AE1 S CH AXR Z
 PASTY(adj)  P EY1 S T IY0
-PASTY(noun)  P AE1 S T IY0 #@@{ "context": "food" }@@
+PASTY(noun)  P AE1 S T IY0 #@@{ "usage": "food" }@@
 PASTY(noun)  P EY1 S T IY0
 PASZEK  P AA1 SH EH0 K
 PASZKIEWICZ  P AA1 SH K AX V IH0 CH
@@ -87187,16 +87187,16 @@ PERMISSION  P AXR M IH1 SH AX N
 PERMISSIONS  P AXR M IH1 SH AX N Z
 PERMISSIVE  P AXR M IH1 S IH0 V
 PERMISSIVENESS  P AXR M IH1 S IH0 V N IH0 S
-PERMIT(verb)  P AXR M IH1 T #@@{ "context": ["allow", "admit", "hand over", "resign"] }@@
+PERMIT(verb)  P AXR M IH1 T #@@{ "usage": ["allow", "admit", "hand over", "resign"] }@@
 PERMIT(noun)  P ER1 M IH0 T
-PERMIT(verb)  P ER1 M IH0 T #@@{ "context": "authorization" }@@
-PERMITS(verb)  P AXR M IH1 T S #@@{ "context": ["allow", "admit", "hand over", "resign"] }@@
+PERMIT(verb)  P ER1 M IH0 T #@@{ "usage": "authorization" }@@
+PERMITS(verb)  P AXR M IH1 T S #@@{ "usage": ["allow", "admit", "hand over", "resign"] }@@
 PERMITS(noun)  P ER1 M IH0 T S
-PERMITS(verb)  P ER1 M IH0 T S #@@{ "context": "authorization" }@@
-PERMITTED(verb)  P AXR M IH1 T IH0 D #@@{ "context": ["allow", "admit", "hand over", "resign"] }@@
-PERMITTED(verb)  P ER1 M IH0 T IH0 D #@@{ "context": "authorization" }@@
-PERMITTING(verb)  P AXR M IH1 T IH0 NG #@@{ "context": ["allow", "admit", "hand over", "resign"] }@@
-PERMITTING(verb)  P ER1 M IH0 T IH0 NG #@@{ "context": "authorization" }@@
+PERMITS(verb)  P ER1 M IH0 T S #@@{ "usage": "authorization" }@@
+PERMITTED(verb)  P AXR M IH1 T IH0 D #@@{ "usage": ["allow", "admit", "hand over", "resign"] }@@
+PERMITTED(verb)  P ER1 M IH0 T IH0 D #@@{ "usage": "authorization" }@@
+PERMITTING(verb)  P AXR M IH1 T IH0 NG #@@{ "usage": ["allow", "admit", "hand over", "resign"] }@@
+PERMITTING(verb)  P ER1 M IH0 T IH0 NG #@@{ "usage": "authorization" }@@
 PERMOUNT  P ER1 M AW2 N T
 PERMUT  P ER1 M AX T
 PERMUTATE  P ER1 M Y UW0 T EY2 T
@@ -89539,7 +89539,7 @@ POLIS(2)  P OW1 L AY0 Z
 POLISARIO  P OW2 L IH0 S EH1 R IY0 OW0
 POLISH(noun)  P AA1 L IH0 SH
 POLISH(adj)  P OW1 L IH0 SH
-POLISH(noun)  P OW1 L IH0 SH #@@{ "context": ["language", "capitalized"] }@@
+POLISH(noun)  P OW1 L IH0 SH #@@{ "usage": ["language", "capitalized"] }@@
 POLISHED  P AA1 L IH0 SH T
 POLISHING  P AA1 L IH0 SH IH0 NG
 POLITANO  P OW0 L IY0 T AA1 N OW0
@@ -90453,8 +90453,8 @@ PRAISING  P R EY1 Z IH0 NG
 PRAKASH  P R AA0 K AA1 SH
 PRALL  P R AO1 L
 PRALLE  P R EY1 L
-PRAM(noun)  P R AE1 M #@@{ "context": "pushchair" }@@
-PRAM(noun)  P R AA1 M #@@{ "context": "nautical" }@@
+PRAM(noun)  P R AE1 M #@@{ "usage": "pushchair" }@@
+PRAM(noun)  P R AA1 M #@@{ "usage": "nautical" }@@
 PRAN  P R AA1 N
 PRAN(2)  P R AE1 N
 PRANCE  P R AE1 N S
@@ -90496,11 +90496,11 @@ PRAXAIR  P R AE1 K S EH1 R
 PRAXIS  P R AE1 K S IH0 S
 PRAY  P R EY1
 PRAYED  P R EY1 D
-PRAYER(noun)  P R EH1 R #@@{ "context": "action" }@@
-PRAYER(noun)  P R EY1 AXR #@@{ "context": "person", "root": "PRAY" }@@
+PRAYER(noun)  P R EH1 R #@@{ "usage": "action" }@@
+PRAYER(noun)  P R EY1 AXR #@@{ "usage": "person", "root": "PRAY" }@@
 PRAYERFUL  P R EH1 R F AX L
-PRAYERS(noun)  P R EH1 R Z #@@{ "context": "action" }@@
-PRAYERS(noun)  P R EY1 AXR Z #@@{ "context": "person", "root": "PRAY" }@@
+PRAYERS(noun)  P R EH1 R Z #@@{ "usage": "action" }@@
+PRAYERS(noun)  P R EY1 AXR Z #@@{ "usage": "person", "root": "PRAY" }@@
 PRAYING  P R EY1 IH0 NG
 PRAYS  P R EY1 Z
 PRAYTOR  P R EY1 T AXR
@@ -90597,13 +90597,13 @@ PRECRASH  P R IY0 K R AE1 SH
 PRECURSOR  P R IY0 K ER1 S AXR
 PRECURSORS  P R IY0 K ER1 S AXR Z
 PREDACEOUS  P R IY0 D EY1 SH AX S
-PREDATE(verb)  P R IH0 D EY1 T #@@{ "context": "action" }@@
-PREDATE(verb)  P R IY1 D EY1 T #@@{ "context": "time" }@@
+PREDATE(verb)  P R IH0 D EY1 T #@@{ "usage": "action" }@@
+PREDATE(verb)  P R IY1 D EY1 T #@@{ "usage": "time" }@@
 PREDATE(noun)  P R IY1 D EY1 T
-PREDATED(verb)  P R IH0 D EY1 T IH0 D #@@{ "context": "action" }@@
-PREDATED(verb)  P R IY1 D EY1 T IH0 D #@@{ "context": "time" }@@
-PREDATES(verb)  P R IH0 D EY1 T S #@@{ "context": "action" }@@
-PREDATES(verb)  P R IY1 D EY1 T S #@@{ "context": "time" }@@
+PREDATED(verb)  P R IH0 D EY1 T IH0 D #@@{ "usage": "action" }@@
+PREDATED(verb)  P R IY1 D EY1 T IH0 D #@@{ "usage": "time" }@@
+PREDATES(verb)  P R IH0 D EY1 T S #@@{ "usage": "action" }@@
+PREDATES(verb)  P R IY1 D EY1 T S #@@{ "usage": "time" }@@
 PREDATES(noun)  P R IY1 D EY1 T S
 PREDATES  P R IY1 D EY1 T S
 PREDATION  P R AX D EY1 SH AX N
@@ -92644,19 +92644,19 @@ PUTT  P AH1 T
 PUTTABLE  P AH1 T AX B AX L
 PUTTED  P AH1 T IH0 D
 PUTTENBAY  P AH1 T IH0 N B EY2
-PUTTER(noun)  P AH1 T AXR #@@{ "root": "PUTT", "context": "golf" }@@
+PUTTER(noun)  P AH1 T AXR #@@{ "root": "PUTT", "usage": "golf" }@@
 PUTTER(noun)  P UH1 T AXR #@@{ "root": "PUT" }@@
 PUTTER(verb)  P AH1 T AXR
 PUTTERER  P AH1 T AXR AXR
 PUTTERING  P AH1 T AXR IH0 NG
 PUTTERMAN  P AH1 T AXR M AX N
-PUTTERS(noun)  P AH1 T AXR Z #@@{ "root": "PUTT", "context": "golf" }@@
+PUTTERS(noun)  P AH1 T AXR Z #@@{ "root": "PUTT", "usage": "golf" }@@
 PUTTERS(noun)  P UH1 T AXR Z #@@{ "root": "PUT" }@@
 PUTTERS(verb)  P AH1 T AXR Z
 PUTTING(noun)  P UH1 T IH0 NG #@@{ "root": "PUT" }@@
 PUTTING(verb)  P UH1 T IH0 NG #@@{ "root": "PUT" }@@
-PUTTING(noun)  P AH1 T IH0 NG #@@{ "root": "PUTT", "context": "golf" }@@
-PUTTING(verb)  P AH1 T IH0 NG #@@{ "root": "PUTT", "context": "golf" }@@
+PUTTING(noun)  P AH1 T IH0 NG #@@{ "root": "PUTT", "usage": "golf" }@@
+PUTTING(verb)  P AH1 T IH0 NG #@@{ "root": "PUTT", "usage": "golf" }@@
 PUTTNAM  P AH1 T N AX M
 PUTTNAM'S  P AH1 T N AX M Z
 PUTTS  P AH1 T S
@@ -94396,7 +94396,7 @@ REAGOR  R IY1 G AXR
 REAL(adj)  R IY1 L
 REAL(adv)  R IY1 L
 REAL(noun)  R IY1 L
-REAL(noun)  R EY1 AA0 L #@@{ "lang": ["es", "pt"], "context": ["currency", "sport"] }@@ e.g. Real Madrid
+REAL(noun)  R EY1 AA0 L #@@{ "lang": ["es", "pt"], "usage": ["currency", "sport"] }@@ e.g. Real Madrid
 REALAMERICA  R IY2 L AX M EH1 R IH0 K AX
 REALCAP  R IY1 L K AE2 P
 REALE  R IY1 L
@@ -94437,7 +94437,7 @@ REALMS  R EH1 L M Z
 REALMUTO  R AX L M UW1 T OW0
 REALPOLITIK  R IY2 L P AO2 L IH0 T IH1 K
 REALS(noun)  R IY1 L Z
-REALS(noun)  R EY1 AA0 L Z #@@{ "lang": ["es", "pt"], "context": "currency" }@@
+REALS(noun)  R EY1 AA0 L Z #@@{ "lang": ["es", "pt"], "usage": "currency" }@@
 REALTOR  R IY1 AX L T AXR
 REALTOR(2)  R IY1 L T AXR
 REALTOR'S  R IY1 AX L T AXR Z
@@ -94824,15 +94824,15 @@ RECOIL  R IY0 K OY1 L
 RECOILED  R IY0 K OY1 L D
 RECOILING  R IY0 K OY1 L IH0 NG
 RECOILS  R IY0 K OY1 L Z
-RECOLLECT(verb)  R EH2 K AX L EH1 K T #@@{ "context": ["memory", "thoughts"] }@@
+RECOLLECT(verb)  R EH2 K AX L EH1 K T #@@{ "usage": ["memory", "thoughts"] }@@
 RECOLLECT(verb)  R IY2 K AX L EH1 K T #@@{ "root": "COLLECT" }@@
-RECOLLECTED(verb)  R EH2 K AX L EH1 K T IH0 D #@@{ "context": ["memory", "thoughts"] }@@
+RECOLLECTED(verb)  R EH2 K AX L EH1 K T IH0 D #@@{ "usage": ["memory", "thoughts"] }@@
 RECOLLECTED(verb)  R IY2 K AX L EH1 K T IH0 D #@@{ "root": "COLLECT" }@@
-RECOLLECTING(verb)  R EH2 K AX L EH1 K T IH0 NG #@@{ "context": ["memory", "thoughts"] }@@
+RECOLLECTING(verb)  R EH2 K AX L EH1 K T IH0 NG #@@{ "usage": ["memory", "thoughts"] }@@
 RECOLLECTING(verb)  R IY2 K AX L EH1 K T IH0 NG #@@{ "root": "COLLECT" }@@
 RECOLLECTION  R EH2 K AX L EH1 K SH AX N
 RECOLLECTIONS  R EH2 K AX L EH1 K SH AX N Z
-RECOLLECTS(verb)  R EH2 K AX L EH1 K T S #@@{ "context": ["memory", "thoughts"] }@@
+RECOLLECTS(verb)  R EH2 K AX L EH1 K T S #@@{ "usage": ["memory", "thoughts"] }@@
 RECOLLECTS(verb)  R IY2 K AX L EH1 K T S #@@{ "root": "COLLECT" }@@
 RECOMBINANT  R IH0 K AA1 M B IH0 N AX N T
 RECOMBINE  R IY2 K AX M B AY1 N
@@ -94903,18 +94903,18 @@ RECORDS(noun)  R EH1 K AXR D Z
 RECORDS(verb)  R IH0 K AO1 R D Z
 RECORE  R EH0 K AO1 R IY0
 RECOTON  R IH0 K AO1 T IH0 N
-RECOUNT(noun)  R IH0 K AW1 N T #@@{ "context": ["retell", "narration", "rehearse"] }@@
-RECOUNT(verb)  R IH0 K AW1 N T #@@{ "context": ["retell", "narration", "rehearse"] }@@
+RECOUNT(noun)  R IH0 K AW1 N T #@@{ "usage": ["retell", "narration", "rehearse"] }@@
+RECOUNT(verb)  R IH0 K AW1 N T #@@{ "usage": ["retell", "narration", "rehearse"] }@@
 RECOUNT(noun)  R IY2 K AW1 N T #@@{ "root": "COUNT" }@@
 RECOUNT(verb)  R IY2 K AW1 N T #@@{ "root": "COUNT" }@@
-RECOUNTED(verb)  R IH0 K AW1 N T IH0 D #@@{ "context": ["retell", "narration", "rehearse"] }@@
+RECOUNTED(verb)  R IH0 K AW1 N T IH0 D #@@{ "usage": ["retell", "narration", "rehearse"] }@@
 RECOUNTED(verb)  R IY2 K AW1 N T IH0 D #@@{ "root": "COUNT" }@@
-RECOUNTING(verb)  R IH0 K AW1 N T IH0 D #@@{ "context": ["retell", "narration", "rehearse"] }@@
+RECOUNTING(verb)  R IH0 K AW1 N T IH0 D #@@{ "usage": ["retell", "narration", "rehearse"] }@@
 RECOUNTING(verb)  R IY2 K AW1 N T IH0 D #@@{ "root": "COUNT" }@@
 RECOUNTS(noun)  R IY2 K AW1 N T S #@@{ "root": "COUNT" }@@
 RECOUNTS(verb)  R IY2 K AW1 N T S #@@{ "root": "COUNT" }@@
-RECOUNTS(noun)  R IH0 K AW1 N T S #@@{ "context": ["retell", "narration", "rehearse"] }@@
-RECOUNTS(verb)  R IH0 K AW1 N T S #@@{ "context": ["retell", "narration", "rehearse"] }@@
+RECOUNTS(noun)  R IH0 K AW1 N T S #@@{ "usage": ["retell", "narration", "rehearse"] }@@
+RECOUNTS(verb)  R IH0 K AW1 N T S #@@{ "usage": ["retell", "narration", "rehearse"] }@@
 RECOUP  R IH0 K UW1 P
 RECOUPED  R IH0 K UW1 P T
 RECOUPING  R IH0 K UW1 P IH0 NG
@@ -94932,10 +94932,10 @@ RECREATE  R IY0 K R IY0 EY1 T
 RECREATED  R IY0 K R IY0 EY1 T IH0 D
 RECREATES  R IY0 K R IY0 EY1 T S
 RECREATING  R IY0 K R IY0 EY1 T IH0 NG
-RECREATION(noun)  R EH2 K R IY0 EY1 SH AX N #@@{ "context": "activity" }@@
+RECREATION(noun)  R EH2 K R IY0 EY1 SH AX N #@@{ "usage": "activity" }@@
 RECREATION(noun)  R IY2 K R IY0 EY1 SH AX N #@@{ "root": "CREATION" }@@
 RECREATIONAL  R EH2 K R IY0 EY1 SH AX N AX L
-RECREATIONS(noun)  R EH2 K R IY0 EY1 SH AX N Z #@@{ "context": "activity" }@@
+RECREATIONS(noun)  R EH2 K R IY0 EY1 SH AX N Z #@@{ "usage": "activity" }@@
 RECREATIONS(noun)  R IY2 K R IY0 EY1 SH AX N Z #@@{ "root": "CREATION" }@@
 RECRIMINATE  R IH0 K R IH2 M IH0 N EY1 T
 RECRIMINATION  R IH0 K R IH2 M IH0 N EY1 SH AX N
@@ -95157,16 +95157,16 @@ REDRAFTED  R IY0 D R AE1 F T IH0 D
 REDRAW  R IY0 D R AO1
 REDRAWING  R IY0 D R AO1 IH0 NG
 REDRAWN  R IY0 D R AO1 N
-REDRESS(noun)  R IH0 D R EH1 S #@@{ "context": ["correct", "restore"] }@@
-REDRESS(verb)  R IH0 D R EH1 S #@@{ "context": ["correct", "restore"] }@@
+REDRESS(noun)  R IH0 D R EH1 S #@@{ "usage": ["correct", "restore"] }@@
+REDRESS(verb)  R IH0 D R EH1 S #@@{ "usage": ["correct", "restore"] }@@
 REDRESS(noun)  R IY0 D R EH1 S #@@{ "root": "DRESS" }@@
 REDRESS(verb)  R IY0 D R EH1 S #@@{ "root": "DRESS" }@@
 REDRESSER  R IH0 D R EH1 S AXR
-REDRESSES(noun)  R IH0 D R EH1 S IH0 Z #@@{ "context": ["correct", "restore"] }@@
-REDRESSES(verb)  R IH0 D R EH1 S IH0 Z #@@{ "context": ["correct", "restore"] }@@
+REDRESSES(noun)  R IH0 D R EH1 S IH0 Z #@@{ "usage": ["correct", "restore"] }@@
+REDRESSES(verb)  R IH0 D R EH1 S IH0 Z #@@{ "usage": ["correct", "restore"] }@@
 REDRESSES(noun)  R IY0 D R EH1 S IH0 Z #@@{ "root": "DRESS" }@@
 REDRESSES(verb)  R IY0 D R EH1 S IH0 Z #@@{ "root": "DRESS" }@@
-REDRESSING(verb)  R IH0 D R EH1 S IH0 NG #@@{ "context": ["correct", "restore"] }@@
+REDRESSING(verb)  R IH0 D R EH1 S IH0 NG #@@{ "usage": ["correct", "restore"] }@@
 REDRESSING(verb)  R IY0 D R EH1 S IH0 NG #@@{ "root": "DRESS" }@@
 REDS  R EH1 D Z
 REDSHAW  R EH1 D SH AO2
@@ -96806,17 +96806,17 @@ RESIDUAL  R IH0 Z IH1 JH UW0 AX L
 RESIDUALS  R IH0 Z IH1 JH UW0 AX L Z
 RESIDUE  R EH1 Z AX D UW2
 RESIDUES  R EH1 Z AX D UW2 Z
-RESIGN(verb)  R IH0 Z AY1 N #@@{ "context": "quit" }@@
+RESIGN(verb)  R IH0 Z AY1 N #@@{ "usage": "quit" }@@
 RESIGN(verb)  R IY0 S AY1 N #@@{ "root": "SIGN" }@@
 RESIGNATION  R EH2 Z IH0 G N EY1 SH AX N
 RESIGNATIONS  R EH2 Z IH0 G N EY1 SH AX N Z
-RESIGNED(verb)  R IH0 Z AY1 N D #@@{ "context": "quit" }@@
+RESIGNED(verb)  R IH0 Z AY1 N D #@@{ "usage": "quit" }@@
 RESIGNED(verb)  R IY0 S AY1 N D #@@{ "root": "SIGN" }@@
 RESIGNEE  R EH2 Z IH0 G N IY1
 RESIGNEES  R EH2 Z IH0 G N IY1 Z
-RESIGNING(verb)  R IH0 Z AY1 N IH0 NG #@@{ "context": "quit" }@@
+RESIGNING(verb)  R IH0 Z AY1 N IH0 NG #@@{ "usage": "quit" }@@
 RESIGNING(verb)  R IY0 S AY1 N IH0 NG #@@{ "root": "SIGN" }@@
-RESIGNS(verb)  R IH0 Z AY1 N Z #@@{ "context": "quit" }@@
+RESIGNS(verb)  R IH0 Z AY1 N Z #@@{ "usage": "quit" }@@
 RESIGNS(verb)  R IY0 S AY1 N Z #@@{ "root": "SIGN" }@@
 RESILIENCE  R IH0 Z IH1 L IY0 AX N S
 RESILIENCE(2)  R IH0 Z IH1 L Y AX N S
@@ -97097,14 +97097,14 @@ RETALIATING  R IH0 T AE1 L IY0 EY2 T IH0 NG
 RETALIATION  R IY0 T AE2 L IY0 EY1 SH AX N
 RETALIATORY  R IY0 T AE1 L Y AX T AO2 R IY0
 RETANA  R EH0 T AE1 N AX
-RETARD(noun)  R IH0 T AA1 R D #@@{ "context": "delay" }@@
+RETARD(noun)  R IH0 T AA1 R D #@@{ "usage": "delay" }@@
 RETARD(verb)  R IH0 T AA1 R D
 RETARD(noun)  R IY0 T AA1 R D
 RETARDANT  R IY0 T AA1 R D AX N T
 RETARDATION  R IY0 T AA0 R D EY1 SH AX N
 RETARDED  R IH0 T AA1 R D IH0 D
 RETARDING  R IH0 T AA1 R D IH0 NG
-RETARDS(noun)  R IH0 T AA1 R D Z #@@{ "context": "delay" }@@
+RETARDS(noun)  R IH0 T AA1 R D Z #@@{ "usage": "delay" }@@
 RETARDS(verb)  R IH0 T AA1 R D Z
 RETARDS(noun)  R IY0 T AA1 R D Z
 RETELL  R IY0 T EH1 L
@@ -99507,10 +99507,10 @@ ROVINGS  R OW1 V IH0 NG Z
 ROVIRA  R OW0 V IH1 R AX
 ROVITO  R OW0 V IY1 T OW0
 ROVNER  R AA1 V N AXR
-ROW(noun)  R OW1 #@@{ "context": ["line", "weightlifting"] }@@
-ROW(verb)  R OW1 #@@{ "context": "nautical" }@@
-ROW(noun)  R AW1 #@@{ "context": ["argument", "noise"] }@@
-ROW(verb)  R AW1 #@@{ "context": "argument" }@@
+ROW(noun)  R OW1 #@@{ "usage": ["line", "weightlifting"] }@@
+ROW(verb)  R OW1 #@@{ "usage": "nautical" }@@
+ROW(noun)  R AW1 #@@{ "usage": ["argument", "noise"] }@@
+ROW(verb)  R AW1 #@@{ "usage": "argument" }@@
 ROW'S  R OW1 Z
 ROWAINE  R OW0 EY1 N
 ROWAINE'S  R OW0 EY1 N Z
@@ -99548,10 +99548,10 @@ ROWNEY  R OW1 N IY0
 ROWNTREE  R OW1 N T R IY2
 ROWNTREE'S  R OW1 N T R IY2 Z
 ROWNY  R OW1 N IY0
-ROWS(noun)  R OW1 Z #@@{ "context": ["line", "weightlifting"] }@@
-ROWS(verb)  R OW1 Z #@@{ "context": "nautical" }@@
-ROWS(noun)  R AW1 Z #@@{ "context": ["argument", "noise"] }@@
-ROWS(verb)  R AW1 Z #@@{ "context": "argument" }@@
+ROWS(noun)  R OW1 Z #@@{ "usage": ["line", "weightlifting"] }@@
+ROWS(verb)  R OW1 Z #@@{ "usage": "nautical" }@@
+ROWS(noun)  R AW1 Z #@@{ "usage": ["argument", "noise"] }@@
+ROWS(verb)  R AW1 Z #@@{ "usage": "argument" }@@
 ROWSE  R OW1 S
 ROWSER  R OW1 Z AXR
 ROWSEY  R OW1 S IY0
@@ -100590,11 +100590,11 @@ SAKAMOTO  S AA0 K AA0 M OW1 T OW0
 SAKATA  S AA0 K AA1 T AX
 SAKAU  S AA0 K AA1 UW0
 SAKE(noun)  S EY1 K
-SAKE(noun)  S AA1 K IY0 #@@{ "lang": "jp", "context": "wine" }@@
+SAKE(noun)  S AA1 K IY0 #@@{ "lang": "jp", "usage": "wine" }@@
 SAKE'S  S EY1 K S
 SAKER  S EY1 K AXR
 SAKES(noun)  S EY1 K S
-SAKES(noun)  S AA1 K IY0 Z #@@{ "lang": "jp", "context": "wine" }@@
+SAKES(noun)  S AA1 K IY0 Z #@@{ "lang": "jp", "usage": "wine" }@@
 SAKHALIN  S AE1 K HH AX L IH0 N
 SAKHAROV  S AA1 K AXR AA0 V
 SAKI  S AA1 K IY0
@@ -104398,13 +104398,13 @@ SEWARD  S UW1 AXR D
 SEWARD'S  S UW1 AXR D Z
 SEWED  S OW1 D
 SEWELL  S UW1 IH0 L
-SEWER(noun)  S UW1 AXR #@@{ "context": ["pipe", "inanimate"] }@@
-SEWER(verb)  S UW1 AXR #@@{ "context": ["pipe", "inanimate"] }@@
-SEWER(noun)  S OW1 AXR #@@{ "context": "person", "root": "SEW" }@@
+SEWER(noun)  S UW1 AXR #@@{ "usage": ["pipe", "inanimate"] }@@
+SEWER(verb)  S UW1 AXR #@@{ "usage": ["pipe", "inanimate"] }@@
+SEWER(noun)  S OW1 AXR #@@{ "usage": "person", "root": "SEW" }@@
 SEWERAGE  S UW1 AXR IH0 JH
-SEWERS(noun)  S UW1 AXR Z #@@{ "context": ["pipe", "inanimate"] }@@
-SEWERS(verb)  S UW1 AXR Z #@@{ "context": ["pipe", "inanimate"] }@@
-SEWERS(noun)  S OW1 AXR Z #@@{ "context": "person", "root": "SEW" }@@
+SEWERS(noun)  S UW1 AXR Z #@@{ "usage": ["pipe", "inanimate"] }@@
+SEWERS(verb)  S UW1 AXR Z #@@{ "usage": ["pipe", "inanimate"] }@@
+SEWERS(noun)  S OW1 AXR Z #@@{ "usage": "person", "root": "SEW" }@@
 SEWING  S OW1 IH0 NG
 SEWN  S OW1 N
 SEX  S EH1 K S
@@ -107221,12 +107221,12 @@ SLOTTING  S L AA1 T IH0 NG
 SLOUCH  S L AW1 CH
 SLOUCHES  S L AW1 CH IH0 Z
 SLOUCHING  S L AW1 CH IH0 NG
-SLOUGH(noun)  S L AH1 F #@@{ "context": "skin" }@@
-SLOUGH(verb)  S L AH1 F #@@{ "context": ["skin", "discard"] }@@
-SLOUGH(noun)  S L AW1 #@@{ "context": ["town", "marsh", "swamp", "pond", "lake", "river"] }@@
-SLOUGHS(noun)  S L AH1 F S #@@{ "context": "skin" }@@
-SLOUGHS(verb)  S L AH1 F S #@@{ "context": ["skin", "discard"] }@@
-SLOUGHS(noun)  S L AW1 Z #@@{ "context": ["marsh", "swamp", "pond", "lake", "river"] }@@
+SLOUGH(noun)  S L AH1 F #@@{ "usage": "skin" }@@
+SLOUGH(verb)  S L AH1 F #@@{ "usage": ["skin", "discard"] }@@
+SLOUGH(noun)  S L AW1 #@@{ "usage": ["town", "marsh", "swamp", "pond", "lake", "river"] }@@
+SLOUGHS(noun)  S L AH1 F S #@@{ "usage": "skin" }@@
+SLOUGHS(verb)  S L AH1 F S #@@{ "usage": ["skin", "discard"] }@@
+SLOUGHS(noun)  S L AW1 Z #@@{ "usage": ["marsh", "swamp", "pond", "lake", "river"] }@@
 SLOVACEK  S L AA1 V AX CH EH0 K
 SLOVAK  S L OW1 V AE0 K
 SLOVAK(2)  S L OW1 V AA0 K
@@ -109243,18 +109243,18 @@ SPONSORSHIPS  S P AA1 N S AXR SH IH2 P S
 SPONTANEITY  S P AA2 N T AX N IY1 AX T IY0
 SPONTANEOUS  S P AA0 N T EY1 N IY0 AX S
 SPONTANEOUSLY  S P AA0 N T EY1 N IY0 AX S L IY0
-SPOOF(noun)  S P UW1 F #@@{ "context": ["hoax", "parody", "satire", "game"] }@@
-SPOOF(verb)  S P UW1 F #@@{ "context": ["hoax", "parody", "satire", "game"] }@@
-SPOOF(noun)  S P UH1 F #@@{ "lang": ["en-AU", "en-NZ"], "context": "semen" }@@
-SPOOF(verb)  S P UH1 F #@@{ "lang": ["en-AU", "en-NZ"], "context": "ejaculate" }@@
-SPOOFED(verb)  S P UW1 F T #@@{ "context": ["hoax", "parody", "satire", "game"] }@@
-SPOOFED(verb)  S P UH1 F T #@@{ "lang": ["en-AU", "en-NZ"], "context": "ejaculate" }@@
-SPOOFING(verb)  S P UW1 F IH0 NG #@@{ "context": ["hoax", "parody", "satire", "game"] }@@
-SPOOFING(verb)  S P UH1 F IH0 NG #@@{ "lang": ["en-AU", "en-NZ"], "context": "ejaculate" }@@
-SPOOFS(noun)  S P UW1 F S #@@{ "context": ["hoax", "parody", "satire", "game"] }@@
-SPOOFS(verb)  S P UW1 F S #@@{ "context": ["hoax", "parody", "satire", "game"] }@@
-SPOOFS(noun)  S P UH1 F S #@@{ "lang": ["en-AU", "en-NZ"], "context": "semen" }@@
-SPOOFS(verb)  S P UH1 F S #@@{ "lang": ["en-AU", "en-NZ"], "context": "ejaculate" }@@
+SPOOF(noun)  S P UW1 F #@@{ "usage": ["hoax", "parody", "satire", "game"] }@@
+SPOOF(verb)  S P UW1 F #@@{ "usage": ["hoax", "parody", "satire", "game"] }@@
+SPOOF(noun)  S P UH1 F #@@{ "lang": ["en-AU", "en-NZ"], "usage": "semen" }@@
+SPOOF(verb)  S P UH1 F #@@{ "lang": ["en-AU", "en-NZ"], "usage": "ejaculate" }@@
+SPOOFED(verb)  S P UW1 F T #@@{ "usage": ["hoax", "parody", "satire", "game"] }@@
+SPOOFED(verb)  S P UH1 F T #@@{ "lang": ["en-AU", "en-NZ"], "usage": "ejaculate" }@@
+SPOOFING(verb)  S P UW1 F IH0 NG #@@{ "usage": ["hoax", "parody", "satire", "game"] }@@
+SPOOFING(verb)  S P UH1 F IH0 NG #@@{ "lang": ["en-AU", "en-NZ"], "usage": "ejaculate" }@@
+SPOOFS(noun)  S P UW1 F S #@@{ "usage": ["hoax", "parody", "satire", "game"] }@@
+SPOOFS(verb)  S P UW1 F S #@@{ "usage": ["hoax", "parody", "satire", "game"] }@@
+SPOOFS(noun)  S P UH1 F S #@@{ "lang": ["en-AU", "en-NZ"], "usage": "semen" }@@
+SPOOFS(verb)  S P UH1 F S #@@{ "lang": ["en-AU", "en-NZ"], "usage": "ejaculate" }@@
 SPOOK  S P UW1 K
 SPOOKED  S P UW1 K T
 SPOOKS  S P UW1 K S
@@ -113937,7 +113937,7 @@ TALENTED  T AE1 L AX N T IH0 D
 TALENTS  T AE1 L AX N T S
 TALERICO  T AA0 L AXR IY1 K OW0
 TALES(noun)  T EY1 L Z
-TALES(noun)  T EY1 L IY0 Z #@@{ "lang": "la", "context": ["law", "jury"] }@@
+TALES(noun)  T EY1 L IY0 Z #@@{ "lang": "la", "usage": ["law", "jury"] }@@
 TALESE  T AX L IY1 Z
 TALESE(2)  T AX L IY1 Z IY0
 TALFORD  T AE1 L F AXR D
@@ -114458,7 +114458,7 @@ TAXED  T AE1 K S T
 TAXER  T AE1 K S AXR
 TAXERS  T AE1 K S AXR Z
 TAXES(noun)  T AE1 K S IH0 Z #@@{ "root": "TAX" }@@
-TAXES(noun)  T AE1 K S IY0 Z #@@{ "root": "TAXIS", "context": ["biology", "medicine", "arrangement", "order"] }@@
+TAXES(noun)  T AE1 K S IY0 Z #@@{ "root": "TAXIS", "usage": ["biology", "medicine", "arrangement", "order"] }@@
 TAXI  T AE1 K S IY0
 TAXI'S  T AE1 K S IY0 Z
 TAXICAB  T AE1 K S IY0 K AE2 B
@@ -114470,7 +114470,7 @@ TAXIED  T AE1 K S IY0 D
 TAXIING  T AE1 K S IY0 IH0 NG
 TAXING  T AE1 K S IH0 NG
 TAXIS(noun)  T AE1 K S IY0 Z #@@{ "root": "TAXI" }@@
-TAXIS(noun)  T AE1 K S IH0 S #@@{ "context": ["biology", "medicine", "arrangement", "order"] }@@
+TAXIS(noun)  T AE1 K S IH0 S #@@{ "usage": ["biology", "medicine", "arrangement", "order"] }@@
 TAXIWAY  T AE1 K S IY0 W EY0
 TAXOL  T AE1 K S AA2 L
 TAXPAYER  T AE1 K S P EY2 AXR
@@ -114536,20 +114536,20 @@ TEAMWORK  T IY1 M W ER2 K
 TEANECK  T IY1 N EH2 K
 TEANEY  T IY1 N IY0
 TEAPOT  T IY1 P AA2 T
-TEAR(noun)  T EH1 R #@@{ "context": ["hole", "object"] }@@
-TEAR(verb)  T EH1 R #@@{ "context": ["rip", "break", "rend", "speed"] }@@
-TEAR(noun)  T IH1 R #@@{ "context": ["crying", "person"] }@@
-TEAR(verb)  T IH1 R #@@{ "context": ["crying", "person"] }@@
+TEAR(noun)  T EH1 R #@@{ "usage": ["hole", "object"] }@@
+TEAR(verb)  T EH1 R #@@{ "usage": ["rip", "break", "rend", "speed"] }@@
+TEAR(noun)  T IH1 R #@@{ "usage": ["crying", "person"] }@@
+TEAR(verb)  T IH1 R #@@{ "usage": ["crying", "person"] }@@
 TEARE  T IY1 R
 TEARFUL  T IH1 R F AX L
 TEARFULLY  T IH1 R F AX L IY0
-TEARING(verb)  T EH1 R IH0 NG #@@{ "context": ["rip", "break", "rend", "speed"] }@@
-TEARING(verb)  T IH1 R IH0 NG #@@{ "context": ["crying", "person"] }@@
+TEARING(verb)  T EH1 R IH0 NG #@@{ "usage": ["rip", "break", "rend", "speed"] }@@
+TEARING(verb)  T IH1 R IH0 NG #@@{ "usage": ["crying", "person"] }@@
 TEARLE  T AO1 R AX L
-TEARS(noun)  T EH1 R Z #@@{ "context": ["hole", "object"] }@@
-TEARS(verb)  T EH1 R Z #@@{ "context": ["rip", "break", "rend", "speed"] }@@
-TEARS(noun)  T IH1 R Z #@@{ "context": ["crying", "person"] }@@
-TEARS(verb)  T IH1 R Z #@@{ "context": ["crying", "person"] }@@
+TEARS(noun)  T EH1 R Z #@@{ "usage": ["hole", "object"] }@@
+TEARS(verb)  T EH1 R Z #@@{ "usage": ["rip", "break", "rend", "speed"] }@@
+TEARS(noun)  T IH1 R Z #@@{ "usage": ["crying", "person"] }@@
+TEARS(verb)  T IH1 R Z #@@{ "usage": ["crying", "person"] }@@
 TEARY  T IH1 R IY0
 TEAS  T IY1 Z
 TEASDALE  T IY1 Z D EY2 L
@@ -115465,8 +115465,8 @@ THAYER  TH EY1 AXR
 THAYER'S  TH EY1 AXR Z
 THAYERS  TH EY1 AXR Z
 THAYNE  TH EY1 N
-THE(det)  DH IY1 #@@{ "context": ["prevocalic", "stressed"] }@@
-THE(det)  DH AX #@@{ "context": "unstressed" }@@
+THE(det)  DH IY1 #@@{ "usage": ["prevocalic", "stressed"] }@@
+THE(det)  DH AX #@@{ "usage": "unstressed" }@@
 THEA  TH IY1 AX
 THEALL  TH IY1 L
 THEANO  TH IY1 N OW0
@@ -118900,11 +118900,11 @@ TUSCALOOSA  T AH2 S K AX L UW1 S AX
 TUSCALOOSA'S  T AH2 S K AX L UW1 S AX Z
 TUSCAN  T AH1 S K AX N
 TUSCANY  T AH1 S K AX N IY0
-TUSH(noun)  T UH1 SH #@@{ "context": "buttocks" }@@
+TUSH(noun)  T UH1 SH #@@{ "usage": "buttocks" }@@
 TUSH(noun)  T AH1 SH
 TUSH(intj)  T AH1 SH
 TUSH(verb)  T AH1 SH
-TUSHES(noun)  T UH1 SH IH0 Z #@@{ "context": "buttocks" }@@
+TUSHES(noun)  T UH1 SH IH0 Z #@@{ "usage": "buttocks" }@@
 TUSHES(noun)  T AH1 SH IH0 Z
 TUSHES(verb)  T AH1 SH IH0 Z
 TUSING  T UW1 S IH0 NG
@@ -120790,7 +120790,7 @@ USE(noun)  Y UW1 S
 USE(verb)  Y UW1 Z
 USEC  Y UW1 S EH0 K
 USED(verb)  Y UW1 Z D
-USED(verb)  Y UW1 S T #@@{ "context": "intransitive" }@@
+USED(verb)  Y UW1 S T #@@{ "usage": "intransitive" }@@
 USEFUL  Y UW1 S F AX L
 USEFUL'S  Y UW1 S F AX L Z
 USEFULLY  Y UW1 S F AX L IY0
@@ -120997,7 +120997,7 @@ VALDIVIA  V AA0 L D IY1 V IY0 AX
 VALDOSTA  V AE2 L D AO1 S T AX
 VALDOVINOS  V AA0 L D OW0 V IY1 N OW0 Z
 VALE(noun)  V EY1 L
-VALE(intj)  V AA1 L EY0 #@@{ "lang": "la", "context": "obituaries" }@@
+VALE(intj)  V AA1 L EY0 #@@{ "lang": "la", "usage": "obituaries" }@@
 VALEA  V AX L IY1 AX
 VALEDA  V AA0 L EY1 D AX
 VALEDICTORIAN  V AE2 L AX D IH2 K T AO1 R IY0 AX N
@@ -124687,8 +124687,8 @@ WERBER  W ER1 B AXR
 WERDEN  W ER1 D AX N
 WERDER  W ER1 D AXR
 WERDESHEIM  W ER1 D Z HH AY2 M
-WERE(verb)  W AXR #@@{ "context": "unstressed" }@@
-WERE(verb)  W ER1 #@@{ "context": "stressed" }@@
+WERE(verb)  W AXR #@@{ "usage": "unstressed" }@@
+WERE(verb)  W ER1 #@@{ "usage": "stressed" }@@
 WERE(noun)  W EH1 R
 WERELDHAVE  W EH1 R AX L D HH AA2 V EY0
 WEREN'T  W ER1 N T
