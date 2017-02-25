@@ -22,7 +22,7 @@ The context tags are defined in the `cainteoir.ttl` file of the
 ## License
 
 Copyright (C) 1993-2008 Carnegie Mellon University. All rights reserved.  
-Copyright (C) 2016 Reece H. Dunn (Cainteoir Technologies). All rights reserved.
+Copyright (C) 2016-2017 Reece H. Dunn (Cainteoir Technologies). All rights reserved.
 
 Use of this dictionary for any research or commercial purpose is completely
 unrestricted.  If you make use of or redistribute this material, we would
