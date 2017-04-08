@@ -10,11 +10,12 @@
 ;;;
 ;;;@@ context-format=cainteoir @@
 ;;;@@ metadata-format=json @@
-;;;@@ metadata=@s:usage @@ How the word is used in a sentence. Used to disambiguate pronunciations.
 ;;;@@ metadata=@s:expanded @@ The expanded text of the abbreviation/initialism.
+;;;@@ metadata=@s:group @@ A collection of related words.
 ;;;@@ metadata=@s:lang @@ The BCP 47 (RFC 5646) language tag for the entry.
 ;;;@@ metadata=@s:misspelling @@ The word this word is a misspelling of.
 ;;;@@ metadata=@s:root @@ The root word which this word or pronunciation is derived.
+;;;@@ metadata=@s:usage @@ How the word is used in a sentence. Used to disambiguate pronunciations.
 ;;;
 A(det)  AX #@@{ "usage": "unstressed" }@@
 A(det)  EY1 #@@{ "usage": "stressed" }@@
@@ -2972,7 +2973,7 @@ ALPERN  AX L P ER1 N
 ALPERS  AE1 L P AXR Z
 ALPERT  AE1 L P AXR T
 ALPEX  AE1 L P EH0 K S
-ALPHA  AE1 L F AX
+ALPHA  AE1 L F AX #@@{ "group": "alphabet/greek", "lang": "el" }@@
 ALPHA'S  AE1 L F AX Z
 ALPHABET  AE1 L F AX B EH2 T
 ALPHABETIC  AE2 L F AX B EH1 T IH0 K
@@ -10440,7 +10441,7 @@ BESTWICK  B EH1 S T W IH2 K
 BESWICK  B EH1 S W IH0 K
 BET  B EH1 T
 BET'S  B EH1 T S
-BETA  B EY1 T AX
+BETA  B EY1 T AX #@@{ "group": "alphabet/greek", "lang": "el" }@@
 BETABIA  B AX T EY1 B IY0 AX
 BETABIA(2)  B AX T AE1 B IY0 AX
 BETAKE  B IY0 T EY1 K
@@ -19816,7 +19817,7 @@ CHEYENNES  SH AY0 AE1 N Z
 CHEYNE  CH EY1 N
 CHEYNEY  CH EY1 N IY0
 CHEZ  CH EH1 Z
-CHI(noun)  K AY1 #@@{ "lang": "el", "usage": "mathematics" }@@ chi squared, etc.
+CHI(noun)  K AY1 #@@{ "group": "alphabet/greek", "lang": "el", "usage": "mathematics" }@@ chi squared, etc.
 CHI(noun)  CH IY1 #@@{ "lang": "zh", "usage": "energy" }@@ Tai Chi, etc.
 CHI'S(noun)  K AY1 Z #@@{ "lang": "el", "usage": "mathematics" }@@ chi squared, etc.
 CHI'S(noun)  CH IY1 Z #@@{ "lang": "zh", "usage": "energy" }@@ Tai Chi, etc.
@@ -28708,7 +28709,7 @@ DELROSSI  D EH0 L R AA1 S IY0
 DELROSSO  D EH0 L R OW1 S OW0
 DELSANTO  D EH0 L S AA1 N T OW0
 DELSIGNORE  D EH0 L S IY0 G N AO1 R IY0
-DELTA  D EH1 L T AX
+DELTA  D EH1 L T AX #@@{ "group": "alphabet/greek", "lang": "el" }@@
 DELTA'S  D EH1 L T AX Z
 DELTACORP  D EH1 L T AX K AO2 R P
 DELTADROMEUS  D EH2 L T AX D R OW1 M AX S
@@ -36713,7 +36714,7 @@ EPPS  EH1 P S
 EPROM  EH1 P R AX M
 EPROMS  EH1 P R AX M Z
 EPSCO  EH1 P S K OW0
-EPSILON  EH1 P S AX L AA2 N
+EPSILON  EH1 P S AX L AA0 N #@@{ "group": "alphabet/greek", "lang": "el" }@@
 EPSOM  EH1 P S AX M
 EPSOMITE  EH1 P S AX M AY2 T
 EPSON  EH1 P S AX N
@@ -37305,6 +37306,7 @@ ESTY  EH1 S T IY0
 ESWORTHY  EH1 S W AXR DH IY0
 ESZTERHAS  EH1 S T AXR HH AA0 S
 ET  EH1 T
+ETA  IY1 T AX #@@{ "group": "alphabet/greek", "lang": "el" }@@
 ETABLISSEMENTS  EH2 T AE0 B L IH2 S AX M AA1 N T S
 ETC  EH2 T S EH1 T AXR AX #@@{ "expanded": "ETCETERA" }@@
 ETCETERA  EH1 T S EH1 T AXR AX
@@ -43934,7 +43936,7 @@ GAMING  G EY1 M IH0 NG
 GAMING'S  G EY1 M IH0 NG Z
 GAMINO  G AA0 M IY1 N OW0
 GAMM  G AE1 M
-GAMMA  G AE1 M AX
+GAMMA  G AE1 M AX #@@{ "group": "alphabet/greek", "lang": "el" }@@
 GAMMAGE  G AE1 M IH0 JH
 GAMMAL  G AX M AA1 L
 GAMMEL  G AE1 M AX L
@@ -58066,7 +58068,7 @@ IOS(2)  AY1 OW0 S
 IOSIF  AY1 AX S IH0 F
 IOSIF(2)  Y EH1 S IH0 F
 IOSUE  AY0 OW1 S UW0
-IOTA  AY0 OW1 T AX
+IOTA  AY0 OW1 T AX #@@{ "group": "alphabet/greek", "lang": "el" }@@
 IOTT  AY1 AX T
 IOVINE  IY0 OW0 V IY1 N IY0
 IOVINO  IY0 OW0 V IY1 N OW0
@@ -60544,7 +60546,7 @@ KAPOR  K EY1 P AXR
 KAPOSI  K AX P OW1 S IY0
 KAPOSI'S  K AX P OW1 S IY0 Z
 KAPP  K AE1 P
-KAPPA  K AE1 P AX
+KAPPA  K AE1 P AX #@@{ "group": "alphabet/greek", "lang": "el" }@@
 KAPPEL  K AE1 P AX L
 KAPPELER  K AE1 P AX L AXR
 KAPPELMAN  K AE1 P AX L M AX N
@@ -64711,7 +64713,7 @@ LAMBASTED(2)  L AE2 M B EY1 S T IH0 D
 LAMBASTES  L AE2 M B AE1 S T S
 LAMBASTES(2)  L AE2 M B EY1 S T S
 LAMBASTING  L AE0 M B EY1 S T IH0 NG
-LAMBDA  L AE1 M D AX
+LAMBDA  L AE1 M D AX #@@{ "group": "alphabet/greek", "lang": "el" }@@
 LAMBDIN  L AE1 M D IH0 N
 LAMBE  L AE1 M
 LAMBEAU  L AE0 M B OW1
@@ -78128,7 +78130,7 @@ MSGR  M AA0 N S IY1 N Y AXR #@@{ "expanded": "MONSIGNOR" }@@
 MSSRS  M EH1 S AXR Z #@@{ "expanded": "MESSIEURS" }@@
 MT  M AW1 N T #@@{ "expanded": "MOUNT" }@@
 MTEL  EH1 M T EH2 L
-MU  M UW1
+MU  M UW1 #@@{ "group": "alphabet/greek", "lang": "el" }@@
 MUAMMAR  M UW0 AE1 M AXR
 MUAVENET  M UW2 AX V EH1 N IH0 T
 MUBARAK  M UW0 B AA1 R IH0 K
@@ -81567,7 +81569,7 @@ NOYOLA  N OY2 OW1 L AX
 NOZZLE  N AA1 Z AX L
 NOZZLES  N AA1 Z AX L Z
 NTH  EH1 N TH
-NU  N UW1
+NU  N UW1 #@@{ "group": "alphabet/greek", "lang": "el" }@@
 NUALA  N UW0 AA1 L AX
 NUANCE  N UW1 AA0 N S
 NUANCED  N UW1 AA0 N S T
@@ -82906,14 +82908,14 @@ OMDAHL  AA1 M D AA2 L
 OMEAD  OW0 M IY1 D
 OMEARA  OW0 M IY1 R AX
 OMEARA(2)  OW2 M AA1 R AX
-OMEGA  OW0 M EH1 G AX
-OMEGA(2)  OW0 M EY1 G AX
+OMEGA  OW0 M EY1 G AX #@@{ "group": "alphabet/greek", "lang": "el" }@@
 OMELET  AA1 M L AX T
 OMELETS  AA1 M L AX T S
 OMELIA  OW0 M EH1 L IY0 AX
 OMEN  OW1 M AX N
 OMENS  OW1 M AX N Z
 OMER  OW1 M AXR
+OMICRON  AA1 M IH0 K R AA0 N #@@{ "group": "alphabet/greek", "lang": "el" }@@
 OMINOUS  AA1 M IH0 N AX S
 OMINOUSLY  AA1 M IH0 N AX S L IY0
 OMISSION  OW0 M IH1 SH AX N
@@ -87805,7 +87807,7 @@ PHEROMONES  F EH1 R AX M OW2 N Z
 PHERSON  F ER1 S AX N
 PHETTEPLACE  F EH1 T P L EY0 S
 PHEW  F Y UW1
-PHI  F AY1
+PHI  F AY1 #@@{ "group": "alphabet/greek", "lang": "el" }@@
 PHIBBS  F IH1 B Z
 PHIBRO  F IH1 B R OW0
 PHIFER  F AY1 F AXR
@@ -88032,7 +88034,7 @@ PHYSIOLOGY  F IH2 Z IY0 AA1 L AX JH IY0
 PHYSIQUE  F AX Z IY1 K
 PHYTOGEOGRAPHY  F AY0 T OW0 JH IY0 AA1 G R AX F IY0
 PHYTOPLANKTON  F AY2 T OW0 P L AE1 NG T AX N
-PI  P AY1
+PI  P AY1 #@@{ "group": "alphabet/greek", "lang": "el" }@@
 PIA  P IY1 AX
 PIACENTE  P IY0 AA0 CH EH1 N T IY0
 PIACENTINI  P IY0 AA0 CH EH0 N T IY1 N IY0
@@ -92125,7 +92127,7 @@ PSEUDOPODIAL  S UW2 D AX P OW1 D IY0 AX L
 PSEUDOSCIENCE  S UW2 D OW0 S AY1 AX N S
 PSEUDOSCIENTIFIC  S UW2 D OW0 S AY2 AX N T IH1 F IH0 K
 PSHEW  P SH UW1
-PSI  S AY1
+PSI  S AY1 #@@{ "group": "alphabet/greek", "lang": "el" }@@
 PSILOCYBIN  S AY2 L AX S AY1 B AX N
 PSORIASIS  S AXR AY1 AX S AX S
 PSYCH  S AY1 K
@@ -97556,7 +97558,7 @@ RHIZOID  R AY1 Z OY2 D
 RHIZOIDAL  R AY2 Z OY1 D AX L
 RHIZOME  R AY1 Z OW2 M
 RHIZOMES  R AY1 Z OW2 M Z
-RHO  R OW1
+RHO  R OW1 #@@{ "group": "alphabet/greek", "lang": "el" }@@
 RHOAD  R OW1 D
 RHOADES  R OW1 D Z
 RHOADS  R OW1 D Z
@@ -106020,7 +106022,7 @@ SIGLER(2)  S AY1 G L AXR
 SIGLER(3)  S IH1 G L AXR
 SIGLEY  S IH1 G L IY0
 SIGLIN  S IH1 G L IH0 N
-SIGMA  S IH1 G M AX
+SIGMA  S IH1 G M AX #@@{ "group": "alphabet/greek", "lang": "el" }@@
 SIGMAFORM  S IH1 G M AX F AO0 R M
 SIGMAN  S IH1 G M AX N
 SIGMON  S IH1 G M AX N
@@ -114360,6 +114362,7 @@ TATTY  T AE1 T IY0
 TATU  T AA0 T UW1
 TATUM  T EY1 T AX M
 TATYANA  T AA0 T Y AA1 N AX
+TAU  T AW1 #@@{ "group": "alphabet/greek", "lang": "el" }@@
 TAUB  T AW1 B
 TAUBE  T AO1 B
 TAUBER  T AW1 B AXR
@@ -115602,7 +115605,7 @@ THESING  DH IY1 Z IH0 NG
 THESING(2)  TH IY1 S IH0 NG
 THESIS  TH IY1 S AX S
 THESPIAN  TH EH1 S P IY0 AX N
-THETA  TH EY1 T AX
+THETA  TH EY1 T AX #@@{ "group": "alphabet/greek", "lang": "el" }@@
 THETFORD  TH EH1 T F AXR D
 THETIS  TH IY1 T AX S
 THEURER  TH ER1 AXR
@@ -120594,6 +120597,7 @@ UPSHAW  AH1 P SH AO2
 UPSHOT  AH1 P SH AA2 T
 UPSHUR  AH1 P SH AXR
 UPSIDE  AH1 P S AY1 D
+UPSILON  AH1 P S IH0 L AA0 N #@@{ "group": "alphabet/greek", "lang": "el" }@@
 UPSIZE  AH1 P S AY1 Z
 UPSIZING  AH1 P S AY1 Z IH0 NG
 UPSON  AH1 P S AX N
@@ -127074,7 +127078,8 @@ XEROXING  Z IH1 R AA0 K S IH0 NG
 XERS  EH1 K S EH0 R Z
 XERXES  Z ER1 K S IY0 Z
 XHOSA  Z OW1 SH AX
-XI  SH IY1
+XI(noun)  Z AY1 #@@{ "lang": "el" }@@@@{ "group": "alphabet/greek", "lang": "el" }@@
+XI(noun)  SH IY1 #@@{ "lang": "zh" }@@
 XIAMEN  Z IY0 EY1 M AX N
 XIAN  Z Y AA1 N
 XIANG  SH IY1 AA0 NG
@@ -128291,7 +128296,7 @@ ZERVOS(2)  Z ER1 V OW0 S
 ZERWHALE  Z ER1 W EY2 L
 ZEST  Z EH1 S T
 ZESTFUL  Z EH1 S T F AX L
-ZETA  Z EY1 T AX
+ZETA  Z EY1 T AX #@@{ "group": "alphabet/greek", "lang": "el" }@@
 ZETTEL  Z EH1 T AX L
 ZETTLE  Z EH1 T AX L
 ZETTLEMOYER  Z EH1 T AX L M OY0 AXR
