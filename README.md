@@ -21,17 +21,34 @@ The context tags are defined in the `cainteoir.ttl` file of the
 
 ## Statistics
 
-| Dictionary | Version | Entries | Words   | Variants |
-|------------|---------|---------|---------|----------|
-| cmudict    | 0.1     |  99,279 |  96,151 |    3,498 |
-| cmudict    | 0.2     | 101,717 |  98,361 |    3,735 |
-| cmudict    | 0.3     | 110,934 | 107,400 |    3,914 |
-| cmudict    | 0.4     | 116,253 | 111,901 |    4,885 |
-| cmudict    | 0.6     | 127,068 | 120,031 |    7,672 |
-| cmudict    | 0.6d    | 129,482 | 120,280 |   10,039 |
-| cmudict    | 0.7     | 133,751 | 124,272 |   10,329 |
-| amepd      | 0.1     | 128,627 | 121,958 |    7,222 |
-| amepd      | master  | 128,712 | 122,203 |    7,073 |
+The upstream versions of the CMU Pronunciation Dictionary have the following
+statistics:
+
+| Dictionary  | Version | Revision | Entries | Words   | Variants |
+|-------------|---------|----------|---------|---------|----------|
+| cmudict     | 0.1     |          |  99,279 |  96,151 |    3,498 |
+| cmudict     | 0.2     |          | 101,717 |  98,361 |    3,735 |
+| cmudict     | 0.3     |          | 110,934 | 107,400 |    3,914 |
+| cmudict     | 0.4     |          | 116,253 | 111,901 |    4,885 |
+| cmudict     | 0.6     |          | 127,068 | 120,031 |    7,672 |
+| cmudict     | 0.6d    |     7825 | 129,482 | 120,280 |   10,039 |
+| cmudict     | 0.7     |     7825 | 133,751 | 124,272 |   10,329 |
+| cmudict     | 0.7a    |    12245 | 133,334 | 123,698 |    9,636 |
+| cmudict     | 0.7b    |    13090 | 134,373 | 125,770 |    8,603 |
+| cmudict-new | 0.7b    |    13246 | 135,009 | 125,929 |    9,080 |
+
+The American English Pronunciation Dictionary releases have the following
+statistics:
+
+| Dictionary  | Version | Revision | Entries | Words   | Variants |
+|-------------|---------|----------|---------|---------|----------|
+| amepd       | 0.1     |     7825 | 128,627 | 121,958 |    7,222 |
+| amepd       | master  |     8122 | 128,712 | 122,203 |    7,073 |
+
+The `Revision` column refers to the commit in the
+[cmusphinx](https://sourceforge.net/p/cmusphinx/code/HEAD/tree/)
+subversion repository where that version of the dictionary originates.
+Versions 0.1-0.6 are not available in that repository.
 
 ## License
 
