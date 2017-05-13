@@ -25,7 +25,7 @@ The upstream versions of the CMU Pronunciation Dictionary have the following
 statistics:
 
 | Dictionary  | Version | Revision | Entries | Words   | Variants |
-|-------------|---------|----------|---------|---------|----------|
+|-------------|---------|---------:|--------:|--------:|---------:|
 | cmudict     | 0.1     |          |  99,279 |  96,151 |    3,498 |
 | cmudict     | 0.2     |          | 101,717 |  98,361 |    3,735 |
 | cmudict     | 0.3     |          | 110,934 | 107,400 |    3,914 |
@@ -41,7 +41,7 @@ The American English Pronunciation Dictionary releases have the following
 statistics:
 
 | Dictionary  | Version | Revision | Entries | Words   | Variants |
-|-------------|---------|----------|---------|---------|----------|
+|-------------|---------|---------:|--------:|--------:|---------:|
 | amepd       | 0.1     |     7825 | 128,627 | 121,958 |    7,222 |
 | amepd       | master  |     8122 | 128,712 | 122,203 |    7,073 |
 
