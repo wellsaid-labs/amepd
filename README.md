@@ -31,6 +31,7 @@ The context tags are defined in the `cainteoir.ttl` file of the
 | cmudict    | 0.6d    | 129,482 | 120,280 |   10,039 |
 | cmudict    | 0.7     | 133,751 | 124,272 |   10,329 |
 | amepd      | 0.1     | 128,627 | 121,958 |    7,222 |
+| amepd      | master  | 128,712 | 122,203 |    7,073 |
 
 ## License
 
