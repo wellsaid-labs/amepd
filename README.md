@@ -53,7 +53,7 @@ Versions 0.1-0.6 are not available in that repository.
 
 ## License
 
-Copyright (C) 1993-2010 Carnegie Mellon University. All rights reserved.  
+Copyright (C) 1993-2012 Carnegie Mellon University. All rights reserved.  
 Copyright (C) 2016-2017 Reece H. Dunn (Cainteoir Technologies). All rights reserved.
 
 The American English Pronunciation Dictionary is released under a
