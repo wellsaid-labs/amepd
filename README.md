@@ -10,7 +10,7 @@ Using John Wells' lexical sets, it has the following mergers:
  *  THOUGHT-CLOTH (CAUGHT)
  *  NORTH-FORCE
  *  FLEECE-HAPPY
- *  DRESS-EXPLORE
+ *  KIT-EXPLORE
 
 Additionally, the accent has the following mergers:
 
