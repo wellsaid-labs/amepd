@@ -44,7 +44,7 @@ statistics:
 | Dictionary  | Version | Revision | Entries | Words   | Variants |
 |-------------|---------|---------:|--------:|--------:|---------:|
 | amepd       | 0.1     |     7825 | 128,627 | 121,958 |    7,222 |
-| amepd       | master  |    12770 | 128,771 | 122,823 |    6,512 |
+| amepd       | master  |    12770 | 128,757 | 122,823 |    6,498 |
 
 The `Revision` column refers to the commit in the
 [cmusphinx](https://sourceforge.net/p/cmusphinx/code/HEAD/tree/)
