@@ -4,11 +4,13 @@
 
 *  Renamed the `context` annotations to `usage`.
 *  Relicensed to the 2-clause BSD license, like cmudict 0.7a.
-*  Incorporate the cmudict 0.7a (cmusphinx revision 12245) changes into the
+*  Incorporated the cmudict 0.7a (cmusphinx revision 12245) changes into the
    dictionary.
-*  Incorporate the cmudict 0.7b (cmusphinx revision 13090) changes into the
+*  Incorporated the cmudict 0.7b (cmusphinx revision 13090) changes into the
    dictionary, excluding the `AH0` to `AA0` changes and the stressing of
    terminal `AH`, `AA`, `OW` and `IY` vowels.
+*  Incorporated the cmudict-new (cmusphinx revision 13246) changes into the
+   dictionary.
 *  Reduced the number of pronunciation variants in the dictionary.
 *  Many pronunciation fixes.
 
