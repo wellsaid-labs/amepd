@@ -3,8 +3,12 @@
 ### 0.2 - (In Development)
 
 *  Renamed the `context` annotations to `usage`.
-*  Incorporate the cmudict 0.7a (cmusphinx revision 12245) changes into the dictionary.
 *  Relicensed to the 2-clause BSD license, like cmudict 0.7a.
+*  Incorporate the cmudict 0.7a (cmusphinx revision 12245) changes into the
+   dictionary.
+*  Incorporate the cmudict 0.7b (cmusphinx revision 13090) changes into the
+   dictionary, excluding the `AH0` to `AA0` changes and the stressing of
+   terminal `AH`, `AA`, `OW` and `IY` vowels.
 *  Reduced the number of pronunciation variants in the dictionary.
 *  Many pronunciation fixes.
 
@@ -30,6 +34,7 @@ New Words:
 *  Removed abbreviations (spelling based entries).
 *  Use `AX` instead of `AH0` for `COMMA` vowels (`STRUT`-`COMMA` split).
 *  Use `AXR` instead of `ER0` for `LETTER` vowels (`NURSE`-`LETTER` split).
-*  Add part of speech and `context` annotations for words with different pronunciations.
+*  Add part of speech and `context` annotations for words with different
+   pronunciations.
 *  Reduced the number of pronunciation variants in the dictionary.
 *  Many pronunciation fixes.
