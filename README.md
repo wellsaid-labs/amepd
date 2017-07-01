@@ -49,7 +49,7 @@ The AmEPD has the following history:
 | Dictionary  | Version | Revision | Entries | Words   | Variants | Parts of Speech |
 |-------------|---------|---------:|--------:|--------:|---------:|----------------:|
 | amepd       | 0.1     |     7825 | 128,627 | 121,958 |    5,970 |           1,252 |
-| amepd       | master  |    13246 | 129,393 | 124,233 |    4,432 |           1,302 |
+| amepd       | master  |    13246 | 129,392 | 124,233 |    4,430 |           1,304 |
 
 The `Revision` column refers to the commit in the
 [cmusphinx](https://sourceforge.net/p/cmusphinx/code/HEAD/tree/)
