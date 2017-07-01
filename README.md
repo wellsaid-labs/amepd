@@ -41,10 +41,10 @@ statistics:
 The American English Pronunciation Dictionary releases have the following
 statistics:
 
-| Dictionary  | Version | Revision | Entries | Words   | Variants |
-|-------------|---------|---------:|--------:|--------:|---------:|
-| amepd       | 0.1     |     7825 | 128,627 | 121,958 |    7,222 |
-| amepd       | master  |    13246 | 129,400 | 124,233 |    5,739 |
+| Dictionary  | Version | Revision | Entries | Words   | Variants | Parts of Speech |
+|-------------|---------|---------:|--------:|--------:|---------:|----------------:|
+| amepd       | 0.1     |     7825 | 128,627 | 121,958 |    5,970 |           1,252 |
+| amepd       | master  |    13246 | 129,400 | 124,233 |    4,443 |           1,296 |
 
 The `Revision` column refers to the commit in the
 [cmusphinx](https://sourceforge.net/p/cmusphinx/code/HEAD/tree/)
