@@ -1,7 +1,7 @@
 # American English Pronunciation Dictionary
 
-The [American English Pronunciation Dictionary](cmudict) is a General American
-English pronunciation dictionary.
+The [American English Pronunciation Dictionary](cmudict) (AmEPD) is a General
+American English pronunciation dictionary.
 
 Using John Wells' lexical sets, it has the following mergers:
 
@@ -20,10 +20,10 @@ Additionally, the accent has the following mergers:
 The context tags are defined in the `cainteoir.ttl` file of the
 [pos-tags](https://github.com/rhdunn/pos-tags) project.
 
-## Statistics
+## History
 
-The upstream versions of the CMU Pronunciation Dictionary have the following
-statistics:
+The AmEPD is based on the CMU Pronunciation Dictionary, which has the following
+history:
 
 | Dictionary  | Version | Revision | Entries | Words   | Variants |
 |-------------|---------|---------:|--------:|--------:|---------:|
@@ -33,13 +33,18 @@ statistics:
 | cmudict     | 0.4     |          | 116,253 | 111,901 |    4,885 |
 | cmudict     | 0.6     |          | 127,068 | 120,031 |    7,672 |
 | cmudict     | 0.6d    |     7825 | 129,482 | 120,280 |   10,039 |
-| cmudict     | 0.7     |     7825 | 133,751 | 124,272 |   10,329 |
+| cmudict     | 0.6e    |     7825 | 133,751 | 124,272 |   10,329 |
 | cmudict     | 0.7a    |    12245 | 133,334 | 123,698 |    9,636 |
 | cmudict     | 0.7b    |    13090 | 134,373 | 125,770 |    8,603 |
 | cmudict-new | 0.7b    |    13246 | 135,009 | 125,929 |    9,080 |
 
-The American English Pronunciation Dictionary releases have the following
-statistics:
+Version 0.5 was not released publically.
+
+Version 0.6e is a reconstruction of the unreleased 0.7 version, created by Alex
+I. Rudnicky, as described by the `README.old` file in the `cmusphinx` repository.
+This is the basis for the first version of AmEPD.
+
+The AmEPD has the following history:
 
 | Dictionary  | Version | Revision | Entries | Words   | Variants | Parts of Speech |
 |-------------|---------|---------:|--------:|--------:|---------:|----------------:|
@@ -49,7 +54,6 @@ statistics:
 The `Revision` column refers to the commit in the
 [cmusphinx](https://sourceforge.net/p/cmusphinx/code/HEAD/tree/)
 subversion repository where that version of the dictionary originates.
-Versions 0.1-0.6 are not available in that repository.
 
 ## License
 
