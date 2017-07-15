@@ -42,7 +42,10 @@ Version 0.5 was not released publically.
 
 Version 0.6e is a reconstruction of the unreleased 0.7 version, created by Alex
 I. Rudnicky, as described by the `README.old` file in the `cmusphinx` repository.
-This is the basis for the first version of AmEPD.
+This is the basis for the 0.1 release of AmEPD.
+
+The 0.2 version of AmEPD incorporates the pronunciation fixes and additions from
+cmudict 0.7a, cmudict 0.7b and cmudict-new.
 
 The AmEPD has the following history:
 

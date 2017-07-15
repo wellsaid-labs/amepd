@@ -1,6 +1,6 @@
 # Change Log
 
-### 0.2 - (In Development)
+### 0.2 - 2017-07-15
 
 *  Renamed the `context` annotations to `usage`.
 *  Relicensed to the 2-clause BSD license, like cmudict 0.7a.
@@ -12,7 +12,7 @@
 *  Incorporated the cmudict-new (cmusphinx revision 13246) changes into the
    dictionary.
 *  Reduced the number of pronunciation variants in the dictionary.
-*  Many pronunciation fixes.
+*  Many pronunciation fixes and additions.
 
 New Words:
 
