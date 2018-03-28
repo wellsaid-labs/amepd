@@ -16,6 +16,7 @@ Additionally, the accent has the following mergers:
 
  *  HURRY-FURRY
  *  MERRY-MARRY-MARY
+ *  MIRROR-NEARER
 
 The context tags are defined in the `cainteoir.ttl` file of the
 [pos-tags](https://github.com/rhdunn/pos-tags) project.
@@ -53,7 +54,7 @@ The AmEPD has the following history:
 |-------------|---------|---------:|--------:|--------:|---------:|----------------:|
 | amepd       | 0.1     |     7825 | 128,627 | 121,958 |    5,970 |           1,252 |
 | amepd       | 0.2     |    13246 | 129,064 | 124,265 |    4,070 |           1,304 |
-| amepd       | master  |    13246 | 129,029 | 124,268 |    4,032 |           1,304 |
+| amepd       | master  |    13246 | 128,995 | 124,268 |    3,998 |           1,304 |
 
 The `Revision` column refers to the commit in the
 [cmusphinx](https://sourceforge.net/p/cmusphinx/code/HEAD/tree/)
