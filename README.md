@@ -12,7 +12,8 @@ Using John Wells' lexical sets, it has the following mergers:
  *  FLEECE-HAPPY
  *  KIT-EXPLORE
 
-Additionally, the accent has the following mergers:
+Additionally, the accent has the following mergers at syllable boundaries
+before `/R/`:
 
  *  HURRY-FURRY
  *  MERRY-MARRY-MARY
@@ -52,13 +53,18 @@ The AmEPD has the following history:
 
 | Dictionary  | Version | Revision | Entries | Words   | Variants | Parts of Speech |
 |-------------|---------|---------:|--------:|--------:|---------:|----------------:|
+| amepd       | base    |     7825 | 131,920 | 121,883 |   10,037 |               0 |
 | amepd       | 0.1     |     7825 | 128,627 | 121,958 |    5,970 |           1,252 |
 | amepd       | 0.2     |    13246 | 129,064 | 124,265 |    4,070 |           1,304 |
-| amepd       | master  |    13246 | 128,995 | 124,268 |    3,998 |           1,304 |
+| amepd       | master  |    13246 | 128,945 | 124,282 |    3,934 |           1,304 |
 
 The `Revision` column refers to the commit in the
 [cmusphinx](https://sourceforge.net/p/cmusphinx/code/HEAD/tree/)
 subversion repository where that version of the dictionary originates.
+
+The `base` version is commit 20bca47d641c03865788a5b17e8afa91e75c786f, which is
+cmudict 0.6e with the following entries removed: spelling-based entries,
+entries with non-letter characters, and hyphenated entries.
 
 ## License
 
