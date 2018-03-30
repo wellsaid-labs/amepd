@@ -69,7 +69,7 @@ entries with non-letter characters, and hyphenated entries.
 ## License
 
 Copyright (C) 1993-2015 Carnegie Mellon University. All rights reserved.  
-Copyright (C) 2016-2017 Reece H. Dunn (Cainteoir Technologies). All rights reserved.
+Copyright (C) 2016-2018 Reece H. Dunn (Cainteoir Technologies). All rights reserved.
 
 The American English Pronunciation Dictionary is released under a
 [2-clause BSD](COPYING) license.
