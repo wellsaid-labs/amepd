@@ -24,8 +24,30 @@ The context tags are defined in the `cainteoir.ttl` file of the
 
 ## History
 
-The AmEPD is based on the CMU Pronunciation Dictionary, which has the following
-history:
+The `Revision` column in the tables below refers to the commit id of that
+version of the dictionary. Versions without a revision are available from the
+[comp.speech](ftp://svr-ftp.eng.cam.ac.uk/pub/comp.speech/dictionaries/cmudict/)
+FTP server. From cmudict 0.6d, `Revision` refers to the
+[cmusphinx](https://sourceforge.net/p/cmusphinx/code/HEAD/tree/)
+subversion repository commit id.
+
+### amepd
+
+| Dictionary  | Version | Revision | Entries | Words   | Variants | Parts of Speech |
+|-------------|---------|---------:|--------:|--------:|---------:|----------------:|
+| amepd       | 0.0     |     7825 | 131,920 | 121,883 |   10,037 |               0 |
+| amepd       | 0.1     |     7825 | 128,627 | 121,958 |    5,970 |           1,252 |
+| amepd       | 0.2     |    13246 | 129,064 | 124,265 |    4,070 |           1,304 |
+| amepd       | master  |    13246 | 128,945 | 124,282 |    3,934 |           1,304 |
+
+Version 0.0 is based on cmudict 0.6e with the following entries removed:
+spelling-based entries, entries with non-letter characters, and hyphenated
+entries.
+
+Version 0.2 incorporates the pronunciation fixes and additions from cmudict
+0.7a, cmudict 0.7b, and cmudict-new.
+
+### cmudict and cmudict-new
 
 | Dictionary  | Version | Revision | Entries | Words   | Variants |
 |-------------|---------|---------:|--------:|--------:|---------:|
@@ -44,27 +66,9 @@ Version 0.5 was not released publically.
 
 Version 0.6e is a reconstruction of the unreleased 0.7 version, created by Alex
 I. Rudnicky, as described by the `README.old` file in the `cmusphinx` repository.
-This is the basis for the 0.1 release of AmEPD.
-
-The 0.2 version of AmEPD incorporates the pronunciation fixes and additions from
-cmudict 0.7a, cmudict 0.7b and cmudict-new.
-
-The AmEPD has the following history:
-
-| Dictionary  | Version | Revision | Entries | Words   | Variants | Parts of Speech |
-|-------------|---------|---------:|--------:|--------:|---------:|----------------:|
-| amepd       | base    |     7825 | 131,920 | 121,883 |   10,037 |               0 |
-| amepd       | 0.1     |     7825 | 128,627 | 121,958 |    5,970 |           1,252 |
-| amepd       | 0.2     |    13246 | 129,064 | 124,265 |    4,070 |           1,304 |
-| amepd       | master  |    13246 | 128,945 | 124,282 |    3,934 |           1,304 |
-
-The `Revision` column refers to the commit in the
-[cmusphinx](https://sourceforge.net/p/cmusphinx/code/HEAD/tree/)
-subversion repository where that version of the dictionary originates.
-
-The `base` version is commit 20bca47d641c03865788a5b17e8afa91e75c786f, which is
-cmudict 0.6e with the following entries removed: spelling-based entries,
-entries with non-letter characters, and hyphenated entries.
+This version is not officially released as 0.6e. It is from the 0.7a dictionary
+in the first revision of cmudict in the cmusphinx repository, which is used as
+the base of the 0.7a release.
 
 ## License
 
