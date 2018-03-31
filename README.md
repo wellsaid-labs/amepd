@@ -39,7 +39,7 @@ subversion repository commit id.
 | 0.0     | 2016-03-18 |     7825 | 131,920 | 121,883 |   10,037 |               0 |
 | 0.1     | 2016-04-14 |     7825 | 128,627 | 121,958 |    5,970 |           1,252 |
 | 0.2     | 2017-07-15 |    13090 | 129,064 | 124,265 |    4,070 |           1,304 |
-| master  | 2018-03-30 |    13090 | 128,945 | 124,282 |    3,934 |           1,304 |
+| master  | 2018-03-31 |    13090 | 129,010 | 124,344 |    3,938 |           1,304 |
 
 Version 0.0 is based on cmudict 0.6e with the following entries removed:
 spelling-based entries, entries with non-letter characters, and hyphenated
@@ -50,9 +50,10 @@ Version 0.2 incorporates the pronunciation fixes and additions from cmudict
 
 ### cmudict-new
 
-| Commit   | Date       | AmEPD | Entries | Words   | Variants |
-|---------:|------------|-------|--------:|--------:|---------:|
-| 132be0d6 | 2016-09-29 | 0.2   | 135,009 | 125,929 |    9,080 |
+| Commit   | Date       | AmEPD  | Entries | Words   | Variants |
+|---------:|------------|--------|--------:|--------:|---------:|
+| 132be0d6 | 2016-09-29 | 0.2    | 135,009 | 125,929 |    9,080 |
+| 0c74d04e | 2018-01-29 | master | 135,086 | 125,996 |    9,090 |
 
 The `cmudict-new` dictionary is being maintained in the
 [cmusphinx/cmudict](https://github.com/cmusphinx/cmudict) GitHub repository.
