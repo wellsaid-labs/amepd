@@ -31,6 +31,11 @@ FTP server. From cmudict 0.6d, `Revision` refers to the
 [cmusphinx](https://sourceforge.net/p/cmusphinx/code/HEAD/tree/)
 subversion repository commit id.
 
+The `cmudict-new` dictionary is being maintained in the
+[cmusphinx/cmudict](https://github.com/cmusphinx/cmudict) GitHub repository.
+The `Revision` column for this dictionary is the SHA1 commit id from that
+repository shortened to 8 characters.
+
 ### amepd
 
 | Dictionary  | Version | Revision | Entries | Words   | Variants | Parts of Speech |
@@ -60,7 +65,7 @@ Version 0.2 incorporates the pronunciation fixes and additions from cmudict
 | cmudict     | 0.6e    |     7825 | 133,751 | 124,272 |   10,329 |
 | cmudict     | 0.7a    |    12245 | 133,334 | 123,698 |    9,636 |
 | cmudict     | 0.7b    |    13090 | 134,373 | 125,770 |    8,603 |
-| cmudict-new | 0.7b    |    13246 | 135,009 | 125,929 |    9,080 |
+| cmudict-new | 0.7b    | 132be0d6 | 135,009 | 125,929 |    9,080 |
 
 Version 0.5 was not released publically.
 
