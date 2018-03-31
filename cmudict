@@ -16715,9 +16715,9 @@ CAISSON(2)  K EH1 S AX N
 CAISSONS  K EY1 S AX N Z
 CAISSONS(2)  K EH1 S AX N Z
 CAITLIN  K AE1 T L IH0 N #@@{ "name": "female", "lang": "ga" }@@ Catherine Elizabeth "Caitlin" Moran
+CAITO  K EY1 T OW0
 CAITRIONA  K AE0 T R IY1 N AX #@@{ "name": "female", "lang": "ga" }@@ Caitriona Jennings
 CAITRÍONA  K AE0 T R IY1 N AX #@@{ "name": "female", "lang": "ga" }@@ Caitríona O'Leary
-CAITO  K EY1 T OW0
 CAJOLE  K AX JH OW1 L
 CAJOLED  K AX JH OW1 L D
 CAJOLING  K AX JH OW1 L IH0 NG
@@ -18593,8 +18593,8 @@ CATOLICA  K AX T OW1 L IH0 K AX
 CATON  K AE1 T AX N
 CATONE  K AX T OW1 N
 CATRAMBONE  K AE1 T R AE2 M B OW2 N
-CATRIONA  K AE0 T R IY1 N AX #@@{ "name": "female" }@@ Catriona "Cat" Sparks
 CATRETT  K AE1 T R IH0 T
+CATRIONA  K AE0 T R IY1 N AX #@@{ "name": "female" }@@ Catriona "Cat" Sparks
 CATRON  K AE1 T R AX N
 CATS  K AE1 T S
 CATSKILL  K AE1 T S K IH2 L
@@ -20257,7 +20257,6 @@ CHLEBOWSKI  CH L IH0 B AO1 F S K IY0
 CHLEBOWSKI(2)  K L IH0 B AO1 F S K IY0
 CHLOE  K L OW1 IY0
 CHLOE'S  K L OW1 IY0 Z
-CHLOË  K L OW1 IY0 #@@{ "name": "female" }@@ Chloë Alexandra Adele Emily Agnew
 CHLORATE  K L AO1 R EY0 T
 CHLORDANE  K L AO1 R D EY2 N
 CHLORIC  K L AO1 R IH0 K
@@ -20274,6 +20273,7 @@ CHLOROPHYLL  K L AO1 R AX F IH0 L
 CHLOROPLAST  K L AO1 R AX P L AE2 S T
 CHLOROPLASTS  K L AO1 R AX P L AE2 S T S
 CHLOROPRENE  K L AO1 R AX P R IY2 N
+CHLOË  K L OW1 IY0 #@@{ "name": "female" }@@ Chloë Alexandra Adele Emily Agnew
 CHMIEL  CH AX M IY1 L
 CHMIELEWSKI  CH AX M AX L EH1 F S K IY0
 CHMIELEWSKI(2)  CH AX M AX L UW1 S K IY0
@@ -22276,9 +22276,9 @@ COLONIZE  K AA1 L AX N AY2 Z
 COLONIZED  K AA1 L AX N AY2 Z D
 COLONIZER  K AA1 L AX N AY2 Z AXR
 COLONIZERS  K AA1 L AX N AY2 Z AXR Z
-COLONS  K OW1 L AO0 N Z
 COLONNA  K OW0 L OW1 N AX
 COLONNADE  K AA2 L AX N EY1 D
+COLONS  K OW1 L AO0 N Z
 COLONUS  K AX L OW1 N AX S
 COLONY  K AA1 L AX N IY0
 COLONY'S  K AA1 L AX N IY0 Z
@@ -47777,7 +47777,6 @@ GRAZIANI  G R AA0 Z IY0 AA1 N IY0
 GRAZIANO  G R AA0 T S IY0 AA1 N OW0
 GRAZIER  G R EY1 Z IY0 AXR
 GRAZING  G R EY1 Z IH0 NG
-GRÁINNE  G R AA1 N Y AX #@@{ "name": "female", "lang": "ga" }@@ Gráinne Seoige
 GRBAVICA  G AXR B AA1 V IH0 K AX
 GRBAVICA(2)  G ER2 B AX V AY1 K AX
 GREANEY  G R IY1 N IY0
@@ -48544,6 +48543,7 @@ GRZYB  G ER1 Z IH2 B
 GRZYBOWSKI  G ER2 Z IH0 B AW1 S K IY0
 GRZYWACZ  G ER1 Z IH0 V AE2 CH
 GRZYWINSKI  G AXR Z IH0 W IH1 N S K IY0
+GRÁINNE  G R AA1 N Y AX #@@{ "name": "female", "lang": "ga" }@@ Gráinne Seoige
 GSCHWIND  G AX SH W IH1 N D
 GSELL  G AX S EH1 L
 GTECH  JH IY1 T EH2 K
@@ -72719,8 +72719,6 @@ MAZZORANA  M AE2 Z AXR AA1 N AX
 MAZZOTTA  M AA0 T S OW1 T AX
 MAZZUCA  M AA0 T S UW1 K AX
 MAZZUCCO  M AA0 T S UW1 K OW0
-MÁIRE  M EH1 R IY0 #@@{ "name": "female" }@@ Máire Rita Whelan
-MÁIRÉAD  M EH0 R EY1 D #@@{ "name": "female", "lang": "ga" }@@ Máiréad Carlin
 MBANK  EH1 M B AE1 NG K
 MBEKI  M B EH1 K IY0
 MBEKI(2)  AX M B EH1 K IY0
@@ -75104,7 +75102,6 @@ MEZZALUNA  M EH2 T S AX L UW1 N AX
 MEZZALUNA(2)  M EH2 Z AX L UW1 N AX
 MEZZANINE  M EH1 Z AX N IY2 N
 MEZZO  M EH1 Z OW0
-MÉAV  M EY1 V #@@{ "name": "female", "lang": "ga" }@@ Méav Ní Mhaolchatha
 MFUME  M AX F UW1 M EY2
 MHAOL  W EY1 L #@@{ "name": "nickname", "lang": "ga" }@@ Grace O'Malley (Gráinne "Mhaol" Ní Mháille)
 MHAOLCHATHA  W EY1 L K AA2 HH AA0 #@@{ "name": "female", "lang": "ga" }@@ Méav Ní Mhaolchatha
@@ -78989,6 +78986,9 @@ MYTHOLOGICAL  M IH0 TH AX L AA1 JH IH0 K AX L
 MYTHOLOGY  M IH0 TH AA1 L AX JH IY0
 MYTHS  M IH1 TH S
 MYUNG  M Y AH1 NG
+MÁIRE  M EH1 R IY0 #@@{ "name": "female" }@@ Máire Rita Whelan
+MÁIRÉAD  M EH0 R EY1 D #@@{ "name": "female", "lang": "ga" }@@ Máiréad Carlin
+MÉAV  M EY1 V #@@{ "name": "female", "lang": "ga" }@@ Méav Ní Mhaolchatha
 N  EH1 N
 N'DJAMENA  N D Y AX M IY1 N AX
 N'DOUR  N D AW1 AXR
@@ -99671,7 +99671,6 @@ ROZSA  R OW1 Z S AX
 ROZYCKI  R AX Z IH1 T S K IY0
 ROZZELL  R AA1 Z AX L
 ROZZI  R AA1 Z IY0
-RÓISÍN  R OW1 SH IY0 N #@@{ "name": "female", "lang": "ga" }@@ Róisín Marie Murphy
 RU  R UW1
 RUA  R UW1 AX
 RUAM  R UW1 AX M
@@ -100301,6 +100300,7 @@ RYUZO  R AY2 UW1 Z OW0
 RYZHKOV  R AY1 Z K AA0 V
 RZASA  AXR Z AA1 S AX
 RZEPKA  AXR Z EH1 P K AX
+RÓISÍN  R OW1 SH IY0 N #@@{ "name": "female", "lang": "ga" }@@ Róisín Marie Murphy
 S  EH1 S
 S'S  EH1 S IH0 Z
 SA  S AA1
@@ -106468,7 +106468,6 @@ SINEGAL  S IH1 N IH0 G AX L
 SINER  S AY1 N AXR
 SINES  S AY1 N Z
 SINEWY  S IH1 N Y UW0 IY0
-SINÉAD  SH IH0 N EY1 D #@@{ "name": "female", "lang": "ga" }@@ Sinéad Marie Bernadette O'Connor
 SINFONIA  S IH0 N F OW1 N IY0 AX
 SINFUL  S IH1 N F AX L
 SING  S IH1 NG
@@ -106549,6 +106548,7 @@ SINUSOID  S AY1 N AX S OY2 D
 SINUSOIDAL  S AY1 N AX S OY2 D AX L
 SINUSOIDALLY  S AY2 N AX S OY1 D AX L IY0
 SINYARD  S IH1 N Y AA2 R D
+SINÉAD  SH IH0 N EY1 D #@@{ "name": "female", "lang": "ga" }@@ Sinéad Marie Bernadette O'Connor
 SIOBHAN  SH IH0 V AO1 N #@@{ "name": "female", "lang": "ga" }@@ Siobhan Hayes
 SIOBHÁN  SH IH0 V AO1 N #@@{ "name": "female", "lang": "ga" }@@ Siobhán Emma Donaghy
 SIOUX  S UW1
@@ -106743,7 +106743,6 @@ SIZZLIN  S IH1 Z L IH0 N
 SIZZLING  S IH1 Z AX L IH0 NG
 SIZZLING(2)  S IH1 Z L IH0 NG
 SIÂN  SH AA1 N #@@{ "name": "female", "lang": "cy" }@@ Siân/Sian Thomas
-SÍLE  SH IY1 L AX #@@{ "name": "female", "lang": "ga" }@@ Síle Seoige
 SJOBERG  SH OW1 B AXR G
 SJOBLOM  SH OW1 B L AA0 M
 SJODIN  SH OW1 D IH0 N
@@ -113846,6 +113845,7 @@ SZYMANOWSKI  SH IH0 M AX N AO1 F S K IY0
 SZYMANSKI  SH IH0 M AE1 N S K IY0
 SZYMBORSKI  SH IH0 M B AO1 R S K IY0
 SZYMCZAK  SH IH1 M CH AE0 K
+SÍLE  SH IY1 L AX #@@{ "name": "female", "lang": "ga" }@@ Síle Seoige
 SØRENSEN  S AO1 R IH0 N S AX N #@@{ "name": "family", "lang": "da" }@@ Birgitte Hjort Sørensen
 T  T IY1
 T'ANG  T AE1 NG
