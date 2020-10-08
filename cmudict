@@ -46,6 +46,15 @@
 ;;;@@ metadata=@s:root @@ The root word which this word or pronunciation is derived.
 ;;;@@ metadata=@s:usage @@ How the word is used in a sentence. Used to disambiguate pronunciations.
 ;;;
+'BOUT B AW1 T
+'CAUSE K AH0 Z
+'COURSE K AO1 R S
+'CUSE K Y UW1 Z
+'EM AH0 M
+'ROUND R AW1 N D
+'TIL T IH1 L
+'TIS T IH1 Z
+'TWAS T W AH1 Z
 A(det)  AX #@@{ "usage": "unstressed" }@@
 A(det)  EY1 #@@{ "usage": "stressed" }@@
 A(noun)  EY1
@@ -116149,7 +116158,6 @@ THREESOME  TH R IY1 S AX M
 THREET  TH R IY1 T
 THRELKELD  TH R EH1 L K EH2 L D
 THRENE  TH R IY1 N
-THRENOS  TH R IY1 - N AA0 S
 THRESH  TH R EH1 SH
 THRESHER  TH R EH1 SH AXR
 THRESHOLD  TH R EH1 SH OW2 L D
